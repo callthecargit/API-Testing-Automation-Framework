@@ -1,0 +1,4 @@
+# Created at 2024-10-17T15:25:04.189
+Boot Manifest-JAR contains absolute paths in classpath 'D:\CTC framework\12345\ctcapiautomation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

@@ -1,0 +1,10 @@
+{
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk1.8.0_202", // Adjust this path if necessary
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\Program Files\\Java\\jdk1.8.0_202" // Adjust this path if necessary
+        }
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

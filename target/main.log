@@ -1,0 +1,2564 @@
+17:25:32.352 karate.env system property was:  
+17:25:32.996 request:
+1 > POST https://ccerrts-dev.callthecar.com/Member/Member/MemberSearchPanel
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: ASP.NET_SessionId=do1mfi0ql5hhsa3ht1sad2w3; .AspNet.ApplicationCookie=-7AqLoNgAiNm3AHi36YotWUeENUFiKnCcZrvxatE0Omi2BTckZphuf4t89iSGAVJV4nKFQcI3UsVFmbe2T3Xvq3x-jta0aa4d11op1sC-RZc3u5DeIwcG7RjRA2NBOYbAfxx7Gjh0hD02tmM2iyap-N1Kd4-KhT7awkHP-Z179V7UIYG-cwJjAlI7X2OjLnHppMuIkVa85cu9NO82Tq_sgV1kFGs-WytZunm8WHPxUrew2ltb0W4YNhSBQkbf_tXmHXyZORLXxJGdGjZilcGFVccPt5nX32s_93JoHwk8vQXg3ubb3bQ13RhT3midyzRyDItJ8lkr3_sPMLHypvVZaHQj8r6gwfrzmQVXNyXSSguTn2-4cSkCIhGF_4AvgGwSb3xjQ8IjToFc9YcL5QIwio8BJAUE5BgamCNCTHbvd-yUNAhHK26clV-g9Uf9lybpVOLsrV-Hx8N23l3DhKFLg5SuBMLNRET5VhcRBWfLS_-LnP35Wwy8NH27F9UAsdcLVddY9mOJDnNrXvSb7BQnFE2WoNVMqc4xgpWUzUTQIdc27RlgOmx0knnOdAVMwB1baKY-cq0FbA0NqepSt9r2g; UserDetailCookie=UserDetail=aGtvc2h0aSxRd2VydHlAMTIzLFRydWU=; __RequestVerificationToken=JJfiaYQaWrJR5bOPxMpSzlDhPO2Y2cdmarx1qQxb5DSCScTWYc5m745LO2NUM132gEPYIq7cHTihQBFx3gjlYielvuD3vuRqbHhds3zFiLE1
+1 > Host: ccerrts-dev.callthecar.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+{"page":"1","pageSize":"20","MemberID":"ztestmember1021"}
+
+17:25:41.754 response time in milliseconds: 8754.13
+1 < 200
+1 < Access-Control-Expose-Headers: Request-Context
+1 < Cache-Control: private, s-maxage=0
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 28 Oct 2024 11:55:41 GMT
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Request-Context: appId=cid-v1:171f42e4-f5e8-41ef-a93a-a62d701c7013
+1 < Server: Microsoft-IIS/10.0
+1 < Set-Cookie: .AspNet.ApplicationCookie=w2Q_8PLY83e4e7rorrlyaWtEucFFL6A_onh59-eK8ENbQY45A44a9reWjrnJdQ-mcMlfiCzXp6qVeLe8m8AuChQhUGQ_qfwrupmnU5H4Ts2mqHAvLhsEgpO6HOKGNWJ4wxN_8ZktSRs0Kd227zhIwBJKuaxZQkVyESUYdkFZIsiA1kTPL1Yr_xNLD3F4qASaT7ZK1bQ06B7w3WB84e0uveO-Tz9174qvzhBGOwQdpRuh6D8dET0OPl-07j1Uqr8RX8WU6ziRfcslkZAxIAZDjGJw0XeMML8obmCwNYC-BRTsw2cR1LHfjhp_hB9Efc7ozWTOepPmCL214yZRW6DFlQ89Y4KA2eEno-vsi3EVBwgGpsCnz3EJxN8eivAp-cyT9FTb0Kn3VdaWhaG79c9X5pqo9I9P74hPY_HKqIGI8W1PvGM1KPPFxwaqmLVeUho3mHhrO3BrvWZ82vOqYGsMkgFlIbsJ0r70WiqTk0UMWd62xn_JcIK4fBvb_pIeMz2lqRQwdyaJVm_vPb5SdsdQCuhXVcM1sb6eyMuclwoyLPPdcoQnkgtGJ81UNuOXcT_wEXCDk4ZwU2Q5q3ZOGVrTQw; path=/; secure; HttpOnly
+1 < Vary: Accept-Encoding
+1 < X-AspNet-Version: 4.0.30319
+1 < X-AspNetMvc-Version: 5.2
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Powered-By: ASP.NET
+{"Data":[{"MemberFirstName":null,"MemberLastName":null,"MemberName":"Member, Demo Test","MemberAddress":"763 Arcadia Ave , 5, Arcadia, CA- 91007","MemberFWA":false,"SearchDOB":null,"BenefitStartDate":null,"BenefitEndDate":null,"LastImportDate":null,"LastImportFileName":null,"BenefitName":null,"BrokerId":null,"ExcludedSubContractorId":0,"ExcludedSubContractorName":null,"SubContractorExclusionDate":"\/Date(-62135568000000)\/","SubContractorExcludedBy":null,"SubContractorName":null,"SubContractorReason":null,"Reason":null,"SubContractorId":0,"MemberTagid":null,"MemberTagids":0,"MemberTagName":null,"MailingAddressLine1":null,"MailingAddressLine2":null,"MailingApartment":null,"MailingCity":null,"MailingStateId":null,"Zipcode":null,"MemberNoteId":0,"MemberNoteCategoryId":0,"MemberNoteCategory":null,"MemberNoteText":null,"MemberNoteCreator":null,"MemberNoteCreationDate":"\/Date(-62135568000000)\/","Member":{"MemberMOT":null,"Id":229498,"MemberIdSearch":null,"MemberId":"ztestmember1021","InsuranceId":null,"SalutationId":0,"FirstName":null,"MiddleName":null,"LastName":null,"Name":",","DOB":null,"Age":null,"Gender":null,"MailingAddressId":0,"MailingAddress":null,"PhysicalAddressId":null,"PhysicalAddress":null,"IsPhysicalAddressSame":false,"DateOfBirth":"10/12/1959","PrimaryContactNo":"(626) 263-2074","PrimaryContactType":null,"SecondaryContactNo":null,"SecondaryContactType":null,"Email":null,"ClientId":0,"BenefitId":0,"InsurancePlanId":0,"AccountStatus":null,"Heightfeet":null,"HeightInches":null,"Height":"","Weight":null,"PreferredLevelOfServiceId":null,"PreferredSubContractorId":null,"CreatedBy":null,"CreatedDate":"\/Date(-62135568000000)\/","ModifiedBy":null,"ModifiedDate":null,"IsActive":null,"IsVip":null,"Status":"Active","ClientName":null,"Client":null,"IsAutomatedCallTextOptIn":null,"IsAutomatedEmailOptIn":null,"LOBName":null,"GroupName":null,"Pronoun":null,"PrefferedGender":null,"PlanCode":null,"HasParentalConsent":false},"Client":{"ClientId":0,"CompanyName":"zTest Health Plan","OfficeAddressId":0,"Phone":null,"Fax":null,"Email":null,"ContactPersonName":null,"ContactPersonEmail":null,"ContactPersonPhone":null,"ContactPersonMobile":null,"ContactPersonFax":null,"Logo":null,"IsActivateCountyVerification":false,"MaxOutOfCountyTravelDistance":null,"IsActiveMassTransit":false,"HealthPlanIdentifier":null,"IsAuthRequiredField":false,"IsAdvanceAuthFeature":false,"IsAuthMaskedRequiredField":false,"AuthMaskField":null,"MaxWalkingDistance":null,"MaxTravelTime":null,"CreatedBy":null,"CreatedDate":"\/Date(-62135568000000)\/","ModifiedBy":null,"ModifiedDate":"\/Date(-62135568000000)\/","IsActive":0,"IsTripExportAccess":false,"Address":null,"IsPCSEnabled":false,"IsMemberEligibilityImport":false,"CallCenterNumber":null,"IsAppLock":false,"AppLogo":null,"TaskBarpicker":null,"Headerbuttonpicker":null},"BenefitGroup":null,"Preference":null,"Address":null,"ListAddress":null,"State":null,"Status":0,"ModifiedBy":null,"LevelOfService":null,"username":null,"StateList":[{"Disabled":false,"Group":null,"Selected":false,"Text":"Alabama-AL","Value":"1"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Alaska-AK","Value":"2"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Arizona-AZ","Value":"3"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Arkansas-AR","Value":"4"},{"Disabled":false,"Group":null,"Selected":false,"Text":"California-CA","Value":"5"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Colorado-CO","Value":"6"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Connecticut-CT","Value":"7"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Delaware-DE","Value":"8"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Florida-FL","Value":"9"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Georgia-GA","Value":"10"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Hawaii-HI","Value":"11"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Idaho-ID","Value":"12"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Illinois-IL","Value":"13"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Indiana-IN","Value":"14"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Iowa-IA","Value":"15"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Kansas-KS","Value":"16"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Kentucky-KY","Value":"17"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Louisiana-LA","Value":"18"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Maine-ME","Value":"19"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Maryland-MD","Value":"20"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Massachusetts-MA","Value":"21"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Michigan-MI","Value":"22"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Minnesota-MN","Value":"23"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Mississippi-MS","Value":"24"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Missouri-MO","Value":"25"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Montana-MT","Value":"26"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Nebraska-NE","Value":"27"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Nevada-NV","Value":"28"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New Hampshire-NH","Value":"29"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New Jersey-NJ","Value":"30"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New Mexico-NM","Value":"31"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New York-NY","Value":"32"},{"Disabled":false,"Group":null,"Selected":false,"Text":"North Carolina-NC","Value":"33"},{"Disabled":false,"Group":null,"Selected":false,"Text":"North Dakota-ND","Value":"34"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Ohio-OH","Value":"35"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Oklahoma-OK","Value":"36"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Oregon-OR","Value":"37"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Pennsylvania-PA","Value":"38"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Rhode Island-RI","Value":"39"},{"Disabled":false,"Group":null,"Selected":false,"Text":"South Carolina-SC","Value":"40"},{"Disabled":false,"Group":null,"Selected":false,"Text":"South Dakota-SD","Value":"41"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Tennessee-TN","Value":"42"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Texas-TX","Value":"43"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Utah-UT","Value":"44"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Vermont-VT","Value":"45"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Virginia-VA","Value":"46"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Washington-WA","Value":"47"},{"Disabled":false,"Group":null,"Selected":false,"Text":"West Virginia-WV","Value":"48"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Wisconsin-WI","Value":"49"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Wyoming-WY","Value":"50"},{"Disabled":false,"Group":null,"Selected":false,"Text":"District of Columbia-DC","Value":"51"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Uttar Pradesh-UP","Value":"52"}],"chkCopyMailing":false,"EncryprtMemberId":null,"IsAccessToFleetModule":null,"IsAccessToEligibility":false,"InRequestedUser":null,"InMemberID":null,"InLastName":null,"InBirthDate":null,"InDateOfService":null}],"Total":1,"AggregateResults":null,"Errors":null}
+
+iv>
+                <span>Access</span>
+            </a>
+        </li>`;
+        }
+        if (adminList.IsFacilityAdmin) {
+            menu.innerHTML += `<li>
+    <a href="/Facility/Facility/Access">
+        <div class="new-icon-Container">
+            <span class="material-icons">supervised_user_circle</span>
+        </div>
+        <span>Access</span>
+    </a>
+</li>`;
+        }
+        if (pdList.filter((x) => x.startsWith("Admin")).length > 0) {
+            console.log("has admin priv...");
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons">admin_panel_settings</span>
+            </div>
+            <span>Admin</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.filter((x) => x.startsWith("Master")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Lookup Fields<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+                if (canList.includes("Master-Designation")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/Designation">Job Title</a></li>';
+                }
+                if (canList.includes("Master-LevelOfService")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/LevelOfService">Level Of Service</a></li>';
+                }
+                if (canList.includes("Master-Tag")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/Tag">Tag</a></li>';
+                }
+                if (canList.includes("Master-NoteCategory")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/NoteCategory">Note Category</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+
+                var temp2 = document.createElement("li"); // Sub-menu
+                temp2.innerHTML += '<a href="#">Credentialing Master<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp2 = document.createElement("ul");
+                ulTemp2.classList += "treeview-menu";
+                if (canList.includes("Master-InsuranceBroker")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/InsuranceBroker">Insurance Broker</a></li>';
+                }
+                if (canList.includes("Master-InsuranceCarrier")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/InsuranceCarrier">Insurance Carrier</a></li>';
+                }
+                if (canList.includes("Master-VehicleServiceTask")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleServiceTask">Vehicle Service Task</a></li>';
+                }
+                if (canList.includes("Master-VehicleServiceCenter")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleServiceCenter">Vehicle Service Center</a></li>';
+                }
+                if (canList.includes("Master-VehicleMake")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleMake">Vehicle Make</a></li>';
+                }
+                if (canList.includes("Master-VehicleModel")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleModel">Vehicle Model</a></li>';
+                }
+                if (canList.includes("Master-TrainingType")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/TrainingType">Training Type</a></li>';
+                }
+                if (canList.includes("Master-ScreeningVendor")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/ScreeningVendor">Screening Vendor</a></li>';
+                }
+                if (canList.includes("Master-TrainingVendor")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/TrainingVendor">Training Vendor</a></li>';
+                }
+                if (canList.includes("Master-ScreeningType")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/ScreeningType">Screening Type</a></li>';
+                }
+                temp2.appendChild(ulTemp2);
+                parentUl.appendChild(temp2);
+
+                var temp3 = document.createElement("li"); // Sub-menu
+                temp3.innerHTML += '<a href="#">Rate <span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp3 = document.createElement("ul");
+                ulTemp3.classList += "treeview-menu";
+                if (canList.includes("Master-Region")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/Region">Region</a></li>';
+                }
+                if (canList.includes("Master-RegulatedRate")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/RegulatedRate">Regulated Rate</a></li>';
+                }
+                if (canList.includes("Master-RegulatedTagRate")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/RegulatedTagRate">Regulated Tag Rate</a></li>';
+                }
+                if (canList.includes("Master-CostTier")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/CostTier">Cost Tier</a></li>';
+                }
+                temp3.appendChild(ulTemp3);
+                parentUl.appendChild(temp3);
+
+                var temp4 = document.createElement("li"); // Sub-menu
+                temp4.innerHTML += '<a href="#">Audit <span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp4 = document.createElement("ul");
+                ulTemp4.classList += "treeview-menu";
+                if (canList.includes("Employee-Audit")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Master/Region">Region</a></li>';
+                }
+                if (canList.includes("Employee-AuditLogRead")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Employee/AuditLogRead">Audit Read</a></li>';
+                }
+                if (canList.includes("Employee-MailicousActivityHistory")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Employee/MailicousActivityHistory">Malicious Activity</a></li>';
+                }
+                if (canList.includes("Employee-LoginHistory")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Employee/LoginHistory">Login History</a></li>';
+                }
+                temp4.appendChild(ulTemp4);
+                parentUl.appendChild(temp4);
+            }
+            if (canList.filter((x) => x.startsWith("Employee")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Administration <span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+
+                if (canList.includes("Roles-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Roles">Role Setup</a></li>';
+                }
+                if (canList.includes("Permissions-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Permissions">Permissions Setup</a></li>';
+                }
+                if (canList.includes("Employee-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Employee">System Users</a></li><li><a href="/Admin/Employee/BulkCreate">Bulk Create</a></li><li><a href="/Admin/Employee/BulkDelete">Bulk Delete</a></li>';
+                }
+                if (canList.includes("Broker-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Broker">Broker</a></li>';
+                }
+                if (canList.includes("Scorecard-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Scorecards">Scorecards</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.startsWith("Member")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+        <div class="new-icon-Container">
+            <span class="material-icons">people</span>
+        </div>
+        <span>Member</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Member-MemberList")) {
+                parentUl.innerHTML += '<li><a href="/Member/Member/MemberList">Member Search</a></li>';
+            }
+            if (canList.includes("Member-Create")) {
+                parentUl.innerHTML += '<li><a href="/Member/Member/Create">Add Member</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.startsWith("Facility")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons">business</span>
+            </div>
+            <span>Facility</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Facility-Index")) {
+                parentUl.innerHTML += '<li><a href="/Facility/Facility">Facility Search</a></li>';
+            }
+            if (canList.includes("Facility-Create")) {
+                parentUl.innerHTML += '<li><a href="/Facility/Facility/Create">Add Facility</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.startsWith("Reservation")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons new-icons">event_available</span>
+            </div>
+            <span>Reservation</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Reservation-Index")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation">Reservation Search</a></li>';
+            }
+            if (canList.includes("Reservation-ReservationOrderSearch")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation/ReservationOrderSearch">Reservation Order Search</a></li>';
+            }
+            if (canList.includes("Reservation-Create")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation/Create">Create</a></li>';
+            }
+            if (canList.includes("Reservation-TripExport")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation/TripExport">Export Trip</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+
+        if (pdList.filter((x) => x.startsWith("Client Billing")).length > 0) {
+
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+         <div class="new-icon-Container">
+             <span class="material-icons new-icons">receipt_long</span>
+         </div>
+         <span>Billing</span>
+         <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Billing-CalculateIncentive")) {
+                parentUl.innerHTML += '<li><a href="/Billing/Billing/CalculateIncentive"  style=\"text-wrap: wrap;\">Calculate CCAH VIP Incentive</a></li>';
+            }
+            if (canList.includes("VoidClaim-AddVoidClaim") || canList.includes("VoidClaim-VoidClaimApproval") || canList.includes("VoidClaim-VoidClaimCheckStatus")) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Void Claim<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+                if (canList.includes("VoidClaim-AddVoidClaim")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/VoidClaim/AddVoidClaim">Add Void Claim</a></li>';
+                }
+                if (canList.includes("VoidClaim-VoidClaimApproval")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/VoidClaim/VoidClaimApproval">Void Claim Approval</a></li>';
+                }
+                if (canList.includes("VoidClaim-VoidClaimCheckStatus")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/VoidClaim/VoidClaimCheckStatus">Void Claim Status</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+            }
+            if (canList.includes("ReplacementClaim-AddReplacementClaim") || canList.includes("ReplacementClaim-ReplacementClaimApproval") || canList.includes("ReplacementClaim-ReplacementClaimCheckStatus")) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Replacement Claim<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+                if (canList.includes("ReplacementClaim-AddReplacementClaim")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/ReplacementClaim/AddReplacementClaim"  style=\"text-wrap: wrap;\">Add Replacement Claim</a></li>';
+                }
+                if (canList.includes("ReplacementClaim-ReplacementClaimApproval")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/ReplacementClaim/ReplacementClaimApproval" style=\"text-wrap: wrap;\">Replacement Claim Approval</a></li>';
+                }
+                if (canList.includes("ReplacementClaim-ReplacementClaimCheckStatus")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/ReplacementClaim/ReplacementClaimCheckStatus" style=\"text-wrap: wrap;\">Replacement Claim Status</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+            }
+
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+
+        }
+
+
+        if (pdList.filter((x) => x.startsWith("StandingOrder")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+        <div class="new-icon-Container">
+            <span class="material-icons">update</span>
+        </div>
+        <span>Standing Order</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("StandingOrder-Index")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/StandingOrder">SO Search</a></li>';
+            }
+            if (canList.includes("StandingOrder-Create")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/StandingOrder/Create">Create</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        var tempList = pdList.filter((x) => x.startsWith("Credentials"));
+        if (tempList.length > 0 && tempList != "Credentials- Dispatch") {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons">receipt_long</span>
+            </div>
+            <span>Credentialing</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.filter((x) => x.startsWith("Subcontractor")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Subcontractor<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                if (canList.includes("Subcontractor-Create")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Subcontractor/Create">Add Subcontractor</a></li></ul>';
+                }
+                if (canList.includes("Subcontractor-Index")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Subcontractor">Subcontractor Search</a></li></ul>';
+                }
+                parentUl.appendChild(temp);
+                parentLi.appendChild(parentUl);
+                menu.appendChild(parentLi);
+            }
+            if (canList.filter((x) => x.startsWith("Driver")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Driver<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                if (canList.includes("Driver-Create")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Driver/Create">Add Driver</a></li></ul>';
+                }
+                if (canList.includes("Driver-Index")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Driver">Driver Search</a></li></ul>';
+                }
+                parentUl.appendChild(temp);
+                parentLi.appendChild(parentUl);
+                menu.appendChild(parentLi);
+            }
+            if (canList.filter((x) => x.startsWith("Vehicle")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Vehicle<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                if (canList.includes("Vehicle-Create")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Vehicle/Create">Add Vehicle</a></li></ul>';
+                }
+                if (canList.includes("Vehicle-Index")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Vehicle">Vehicle Search</a></li></ul>';
+                }
+                parentUl.appendChild(temp);
+                parentLi.appendChild(parentUl);
+                menu.appendChild(parentLi);
+            }
+        }
+        if (canList.filter((x) => x.startsWith("Subcontractor-Dispatch")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.innerHTML = `<a href="/Credentials/Subcontractor/Dispatch">
+                <div class="new-icon-Container">
+                    <span class="material-icons">
+                        airport_shuttle
+                    </span>
+                </div>
+                <span>Dispatch</span>
+            </a>`;
+            menu.appendChild(parentLi);
+        }
+
+        if (pdList.filter((x) => x.startsWith("Client")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+                <div class="new-icon-Container">
+                    <span class="material-icons">
+                        supervised_user_circle
+                    </span>
+                </div>
+                <span>Client</span>
+                <span class="material-icons md-14 pull-right">chevron_left</span>
+            </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Client-Index")) {
+                parentUl.innerHTML += '<li><a href="/Client/Client">Client Search</a></li>';
+            }
+            if (canList.includes("Client-Create")) {
+                parentUl.innerHTML += '<li><a href="/Client/Client/Create">Create</a></li>';
+            }
+            if (canList.includes("MemberImport-Index")) {
+                parentUl.innerHTML += '<li><a href="/Client/MemberImport">Member Import</a></li>';
+            }
+            if (canList.includes("MemberImport-ImportHistory")) {
+                parentUl.innerHTML += '<li><a href="/Client/MemberImport/ImportHistory">Import History</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.includes("Report")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+                <div class="new-icon-Container">
+                    <span class="material-icons-outlined">
+                        summarize
+                    </span>
+                </div>
+                <span>Report</span>
+                <span class="material-icons md-14 pull-right">chevron_left</span>
+            </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            parentUl.innerHTML +=`<li><a href="/Report/TripReport">Trips by Date and Status</a></li>`;
+
+            if (canList.includes("TripReport-LyftReportIndex")) {
+                parentUl.innerHTML += '<li><a href="/Report/TripReport/LyftReportIndex">Lyft Report</a></li>';
+            }
+            if (canList.includes("TripReport-PCSReportIndex")) {
+                parentUl.innerHTML += '<li><a href="/Report/TripReport/PCSReportIndex">PCS Report</a></li>';
+            }
+            if (canList.includes("TripReport-ComplaintReportIndex")) {
+                parentUl.innerHTML += '<li><a href="/Report/TripReport/ComplaintReportIndex">Complaint Report</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.includes("Finance")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons-outlined">
+                    summarize
+                </span>
+            </div>
+            <span>Finance - Vendor Invoice</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            parentUl.innerHTML +='<li><a href="/Member/Finance/LoadInvoice">1) Load Invoice</a></li>';
+
+            if (canList.includes("Finance-AdjudicateInvoice")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/AdjudicateInvoice">2) Adjudicate Invoice</a>';
+            }
+            if (canList.includes("Finance-PendingClaims")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/PendingClaims"  style=\"text-wrap: wrap;\">3) Resolve Pending Claims</a></li>';
+            }
+            if (canList.includes("Finance-GenerateEOP")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/GenerateEOP">4) Generate EOP</a></li>';
+            }
+            if (canList.includes("Finance-GenerateCheck")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/GenerateCheck">5) Generate Check</a></li>';
+            }
+            if (canList.includes("VendorClaim-VendorClaimUpdate")) {
+                parentUl.innerHTML += '<li><a href="/Billing/VendorClaim/VendorClaimUpdate"  style=\"text-wrap: wrap;\">6) Update Vendor Claim Status</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+
+        if (pdList.filter((x) => x.includes("Complaint")).length > 0) {
+            menu.innerHTML += `<li>
+    <a href="https://newapi-dev.callthecar.com/complaints/search">
+        <div class="new-icon-Container">
+            <span class="material-icons">feedback</span>
+        </div>
+        <span>Complaints</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>
+</li>`;
+        }
+      if (userType == 3 && isGrievanceModuleAccessible) {
+        menu.innerHTML += `<li>
+    <a href="https://newapi-dev.callthecar.com/grievances">
+        <div class="new-icon-Container">
+            <span class="material-icons">feedback</span>
+        </div>
+        <span>Grievances</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>
+</li>`;
+    }
+    window.localStorage.setItem("builtMenu", JSON.stringify(menu.innerHTML));
+}
+
+    document.addEventListener('DOMContentLoaded', function (event) {
+        var builtMenu = window.localStorage.getItem("builtMenu");
+        if (builtMenu != null && builtMenu != "undefined") {
+            var menu = document.getElementById("dynMenu");
+            menu.innerHTML = JSON.parse(builtMenu);
+        } else {
+            var userType = window.localStorage.getItem("userType");
+            var userPermissions = window.localStorage.getItem("userPermissions");
+            var adminList = window.localStorage.getItem("adminList");
+            var userPagePermissions = window.localStorage.getItem("userPagePermissions");
+            var isGrievanceModuleAccessible = window.localStorage.getItem("isGrievanceModuleAccessible");
+            if (!userType || !userPermissions || userType == "undefined" || userPermissions == "undefined" || !adminList || adminList == "undefined" || !userPagePermissions || userPagePermissions == "undefined" || !isGrievanceModuleAccessible || isGrievanceModuleAccessible == "undefined") {
+                fetch("/Account/GetSessionInfo").then((response) => {
+                    return response.json();
+                })
+                    .then((data) => {
+                        console.log(data);
+                        if (data.userType) {
+                            window.localStorage.setItem("userType", data.userType);
+                            userType = data.userType;
+                        }
+                        if (data.userPermissions) {
+                            window.localStorage.setItem("userPermissions", JSON.stringify(data.userPermissions));
+                            userPermissions = data.userPermissions;
+                        }
+                        if (data.adminList) {
+                            window.localStorage.setItem("adminList", JSON.stringify(data.adminList));
+                            adminList = data.adminList;
+                        }
+                        if (data.userPagePermissions) {
+                            window.localStorage.setItem("userPagePermissions", JSON.stringify(data.userPagePermissions));
+                            userPagePermissions = data.userPagePermissions;
+                        }
+                        if (data.isGrievanceModuleAccessible) {
+                            window.localStorage.setItem("isGrievanceModuleAccessible", JSON.stringify(data.isGrievanceModuleAccessible));
+                            isGrievanceModuleAccessible = data.isGrievanceModuleAccessible;
+                        }
+                        buildMenu(userType, userPermissions, adminList, userPagePermissions, isGrievanceModuleAccessible);
+                    });
+            } else {
+
+                buildMenu(userType, JSON.parse(userPermissions), JSON.parse(adminList), JSON.parse(userPagePermissions), JSON.parse(isGrievanceModuleAccessible));
+            }
+        }
+
+        async function cacheStore(url) {
+
+            try {
+
+                // open cache
+                const cache = await caches.open("mySession");
+
+                // fetch and store response
+                await cache.add(url);
+                return true;
+
+            }
+            catch (err) {
+                return undefined; // store failed
+            }
+
+        }
+});
+</script>
+
+
+
+                    <!-- /.sidebar -->
+
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="text-decoration: none; margin-top: auto !important;">
+                        <div class="new-icon-Container">
+                            <span class="material-icons-outlined">
+                                menu
+                            </span>
+                        </div>
+                    </a>
+
+                </aside>
+            <div class="right-panel" id="right-panel">
+                <nav class="navbar navbar-default" style="margin-bottom: 0;">
+
+                    <div id="navbar-inner">
+                        <!--<div class="col-lg-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for..." id="search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <span class="material-icons-outlined" style="font-size: 14px;">
+                                            search
+                                        </span>
+                                    </button>
+                                </span>
+                            </div>-->
+                        <!-- /input-group -->
+                        <!--</div>
+                        <div class="input-group">
+
+                            <input id="search" class="form-control" type="text" placeholder="Search" data-bs-toggle="dropdown">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                </button>
+                            </span>
+
+                            <ul id="searchResults" class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 94%"></ul>
+                        </div>-->
+                        <ul class="nav navbar-nav navbar-right" style="margin-right: 0 !important;">
+                            <li>
+                                <span class="navbar-text" style="margin-right: 0">hkoshti</span>
+                            </li>
+                            <li class="dropdown" style="margin-right: 1rem;">
+
+                                <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                   role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                    <img id="mePhoto" src="" class="rounded-circle" style="vertical-align: baseline;"
+                                         height="24" alt="Avatar" loading="lazy" />
+                                    <span class="material-icons">
+                                        arrow_drop_down
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <input type="checkbox" id="spaMode" checked onclick="setLayout()">
+                                            New Layout
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="dropdown-item" onclick="logOut()">Log Off</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <div class="content-area">
+                    <div aria-live="polite" aria-atomic="true" class="position-relative" style="z-index: 1040">
+                        <div id="toast-container" class="bootstrapiso position-absolute top-0 end-0 p-3">
+
+                        </div>
+                    </div>
+                    <div class="lds-dual-ring fade" id="loading-spinner"></div>
+                    <div id="spa-content">
+                        <div id="body">
+                            
+<script type="text/javascript">
+    function getUserType(){
+        return MySession.UserType
+    }
+</script>
+
+<hgroup>
+    <h1 class="text-error">Error.</h1>
+    <h2 class="text-error">An error occurred while processing your request.</h2>
+    <p>Controller name: Member</p>
+    <p>Action name: MemberSearchPanel</p>
+    <p>Message: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.</p>
+</hgroup>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end main-container-->
+        <div class="clearfix"></div>
+        
+    </div>
+    <!--End Main container-->
+    <div class="modal fade bootstrap-iso" id="addressModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Suggestion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group" id="addressList">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Start Kendo Notification-->
+    <span id="notification"></span><script>
+	kendo.syncReady(function(){jQuery("#notification").kendoNotification({"position":{"right":50,"top":50},"stacking":"down","autoHideAfter":0,"templates":[{"type":"info","templateId":"emailTemplate"},{"type":"error","templateId":"errorTemplate"},{"type":"success","templateId":"successTemplate"},{"type":"warning","templateId":"warningTemplate"}]});});
+</script>
+
+    <script id="emailTemplate" type="text/x-kendo-template">
+        <div class="info">
+            <i class="fa fa-info-circle fa-lg"></i>
+            <p>#= message #</p>
+        </div>
+    </script>
+
+    <script id="errorTemplate" type="text/x-kendo-template">
+        <div class="bootstrap-iso error">
+        <div class="row">
+            <div class="col-2 align-self-center">
+                <span class="material-icons" style="vertical-align:middle; color: red; font-size: 2rem;">highlight_off</span>
+            </div>
+            <div class="col">
+                <h5>#= title #</h5>
+                <p>#= message #</p>
+            </div>
+        </div>
+        </div>
+    </script>
+    <script id="warningTemplate" type="text/x-kendo-template">
+        <div class="bootstrap-iso error">
+        <div class="row">
+            <div class="col-2 align-self-center">
+                <span class="material-icons" style="vertical-align:middle; font-size: 2rem;">info</span>
+            </div>
+            <div class="col">
+                <h5>#= title #</h5>
+                <p>#= message #</p>
+            </div>
+        </div>
+        </div>
+    </script>
+    <script id="successTemplate" type="text/x-kendo-template">
+        <div class="bootstrap-iso notification">
+        <div class="row">
+            <div class="col-2 align-self-center">
+                <span class="material-icons" style="vertical-align:middle; font-size: 2rem;">check_circle_outline</span>
+            </div>
+            <div class="col">
+                <p>#= message #</p>
+            </div>
+        </div>
+        </div>
+    </script>
+    <!--End Kendo Notification-->
+    <script src="/Scripts/custom.js"></script>
+    <script src="/Scripts/app.js"></script>
+    
+    <script src="/Scripts/mvcfoolproof?v=Eh3OlHJ-NJnHMr2iVDY_Pu4TnCNjk_LfeCbNU_ECPjY1"></script>
+
+    
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyB1VOOk3D-ZX1ZbpAQtKOCZy7LnMkSmrFA&libraries=places"></script>
+</body>
+</html>
+
+<script id="confirmationTemplate" type="text/x-kendo-template">
+    <div class="popupMessage" style="color: red;"></div>
+    <hr />
+    <div class="dialog_buttons" style="float: right;">
+        <input type="button" class="confirm_no k-button" value="No" />
+        &nbsp;
+        <input type="button" class="confirm_yes k-button" value="Yes" />
+    </div>
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () { setImage(); });
+    function setImage() {
+        var photo = '';
+        if (photo != '' && photo != null) {
+            window.localStorage.setItem("mePhoto", photo);
+            document.getElementById("mePhoto").src = photo;
+        } else {
+            var localPhoto = window.localStorage.getItem("mePhoto");
+            if (localPhoto != '' && localPhoto != null) {
+                document.getElementById("mePhoto").src = localPhoto;
+            } else {
+                document.getElementById("mePhoto").src = "/Content/Images/account_circle.svg";
+            }
+        }
+    }
+
+    function logOut() {
+        window.localStorage.clear();
+        window.location.replace("/Account/LogOff");
+    }
+    function setLayout() {
+        $.ajax({
+                    type: "POST",
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    url: "/Account/SetLayout",
+                    data: JSON.stringify({ layout: "old" }),
+                    success: function (data) {
+                        location.reload();
+                    },
+                    error: function () {}
+                });
+    }
+    function showConfirmationWindow(message) {
+        return showWindow('#confirmationTemplate', message)
+    };
+
+    function showWindow(template, message) {
+
+        var dfd = new jQuery.Deferred();
+        var result = false;
+
+        $("<div id='popupWindow'></div>")
+            .appendTo("body")
+            .kendoWindow({
+                width: "350px",
+                modal: true,
+                title: "Session About to Expire!",
+                modal: true,
+                visible: false,
+                close: function (e) {
+                    this.destroy();
+                    dfd.resolve(result);
+                }
+            }).data('kendoWindow').content($(template).html()).center().open();
+
+        $('.popupMessage').html(message);
+
+
+        $('#popupWindow .confirm_no').val('Keep me signed in');
+        $('#popupWindow .confirm_yes').val('Sign me out');
+
+        $('#popupWindow .confirm_no').click(function () {
+            $('#popupWindow').data('kendoWindow').close();
+            //ConfirmThere = false;
+            //count = 60;
+        });
+
+        $('#popupWindow .confirm_yes').click(function () {
+            result = true;
+            $('#popupWindow').data('kendoWindow').close();
+            // ConfirmThere = false;
+            // count = 60;
+        });
+
+        return dfd.promise();
+    };
+
+    const search = document.getElementById("search");
+    const sResults = document.getElementById("searchResults");
+    var timeout;
+    if (search) {
+        search.onkeyup = function () {
+            if (timeout !== null) {
+                clearTimeout(timeout);
+            }
+            timeout = setTimeout(() => {
+                let results = [];
+                const userInput = this.value;
+                if (userInput.length > 2) {
+                    $.ajax({
+                        type: "GET",
+                        dataType: 'html',
+                        contentType: 'application/json; charset=utf-8',
+                        url: "/Common/Search",
+                        data: { searchText: userInput },
+                        success: function (data) {
+                            processResults(data, userInput);
+                        },
+                        error: function () {}
+                    });
+                }
+            }, 1000);
+        }
+    }
+    var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+    var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+        return new bootstrap.Dropdown(dropdownToggleEl)
+    })
+
+    function goToMember(id) {
+        var b64 = btoa(id);
+        window.open(`/Member/Member/Detail?prm=${b64}`, '_blank');
+    }
+
+    function goToTrip(id) {
+        var b64 = btoa(id);
+        window.open(`/Reservation/Reservation/Detail/${b64}`, '_blank');
+    }
+    function hl(input, tmplStr) {
+        var reg = new RegExp(`(${input})(.*)`, "i");
+        if (reg.test(tmplStr)) {
+            var arr = tmplStr.match(reg);
+            return `${arr[1]}<small class="text-muted">${arr[2]}</small>`;
+        } else {
+            return tmplStr;
+        }
+    }
+    function fn(dos, puTime, tripId) {
+        var str = ``;
+        if (dos != null) {
+            var today = new Date();
+            var dosP = new Date(dos);
+            var puTimeFormat = new Date('1970-01-01T' + puTime + 'Z').toLocaleTimeString("en-US", {
+                hour: 'numeric',
+                minute: 'numeric',
+                hour12: true});
+            if (dosP.getDate == today.getDate) {
+                str = `<a class="dropdown-item" href="#" onclick="goToTrip(${tripId.toString()})"><p class="mb-1 indent">Trip today at ${puTimeFormat}.</p></a>`;
+            } else {
+                str = `<a class="dropdown-item" href="#" onclick="goToTrip(${tripId.toString()})"><p class="mb-1 indent">Trip on ${dosP.toLocaleDateString('en-US')} at ${puTime}.</p></a>`;
+            }
+        } else {
+            str = `<a class="dropdown-item" href="#"><p class="mb-1 indent">No trips soon.</p></a>`;
+        }
+        return str;
+    }
+    function processResults(results, userInput) {
+        var obj = JSON.parse(results);
+        var children = [];
+        if (obj.Members) {
+            var liTemp = document.createElement('li');
+            var inner = `<h6 class="dropdown-header">Members</h6>`;
+            liTemp.innerHTML = inner;
+            children.push(liTemp);
+            for (let i = 0; i < obj.Members.length; i++) {
+                var index = children.findIndex(x => x.innerHTML.includes(obj.Members[i].MemberId));
+                if (index == -1) {
+                    console.log(children);
+                    var liTemp = document.createElement('li');
+                    var displayName = obj.Members[i].FirstName + " " + obj.Members[i].LastName;
+                    var dob = new Date(obj.Members[i].DOB);
+                    var liInner = `<a class="dropdown-item" href="#" onclick="goToMember(${hl(userInput, obj.Members[i].Id.toString())})">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">${hl(userInput, displayName)} ${obj.Members[i].MemberId}</p>
+                                    <small class="text-muted">${hl(userInput, dob.toLocaleDateString('en-US'))}</small>
+                                </div>
+                                ${fn(obj.Members[i].DateOfService, obj.Members[i].PickUpTime, obj.Members[i].TripId)}
+                            </a>`;
+                    liTemp.innerHTML = liInner;
+                    children.push(liTemp);
+                } else {
+                    if (obj.Members[i].DateOfService != null) {
+                        children[index].lastChild = `${fn(obj.Members[i].DateOfService, obj.Members[i].PickUpTime, obj.Members[i].TripId)}`;
+                    }
+                }
+            }
+        }
+        if (obj.Trips) {
+            var liTemp = document.createElement('li');
+            var inner = `<h6 class="dropdown-header">Trips</h6>`;
+            liTemp.innerHTML = inner;
+            children.push(liTemp);
+            for (let i = 0; i < obj.Trips.length; i++) {
+                var liTemp = document.createElement('li');
+                var dos = new Date(obj.Trips[i].DateOfService);
+                var liInner = `<a class="dropdown-item" href="#" onclick="goToTrip(${hl(userInput, obj.Trips[i].TripId.toString())})">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">${hl(userInput, obj.Trips[i].TripNo)}</h5>
+                                    <small class="text-muted">${hl(userInput, dos.toLocaleDateString('en-US'))}</small>
+                                </div>
+                            </a>`;
+                liTemp.innerHTML = liInner;
+                children.push(liTemp);
+            }
+        }
+        if (obj.Addresses) {
+            var liTemp = document.createElement('li');
+            var inner = `<h6 class="dropdown-header">Addresses</h6>`;
+            liTemp.innerHTML = inner;
+            children.push(liTemp);
+            for (let i = 0; i < obj.Addresses.length; i++) {
+                if (!children.some(x => x.innerHTML.includes(obj.Addresses[i].Zipcode))) {
+                    var liTemp = document.createElement('li');
+                    var latterAddress = `${obj.Addresses[i].City} ${obj.Addresses[i].Zipcode}`;
+                    var liInner = `<a class="dropdown-item" href="#">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">${hl(userInput, obj.Addresses[i].AddressLine1)}</h5>
+                                    <small class="text-muted">${hl(userInput, latterAddress)}</small>
+                                </div>
+                                <a class="dropdown-item" href="#"><p class="mb-1 indent">Search for Members with this address?</p></a>
+                                <a class="dropdown-item" href="#"><p class="mb-1 indent">Search for Trips going to this address?</p></a>
+                            </a>`;
+                    liTemp.innerHTML = liInner;
+                    children.push(liTemp);
+                }
+            }
+        }
+        sResults.replaceChildren(...children);
+    }
+
+
+        var newAjaxDetected = false;
+
+        $(document).ajaxComplete(function () {
+            //alert("ALL current AJAX calls have completed");
+            newAjaxDetected = true;
+
+        });
+
+        var confirmThere = false;
+        var timer_PopUpTimer;
+        var userSession = '240';
+    var meObj = '';
+    console.log(meObj);
+        //alert("userSession " + userSession);
+
+        if (userSession != "") {
+            SetServerTimeInLocalStorage();
+            var interval;
+           // interval = setInterval('HandleUserTimeout()', 1000);//fire every 1 seconds
+        }
+        else {
+            if (!(window.location.href.indexOf("Login") > -1 || window.location.href.indexOf("ForgotPassword") > -1 || window.location.href.indexOf("ChangePassword") > -1)) {
+                window.localStorage.clear();
+                window.location.href = '/Account/Logout';
+            }
+        }
+
+        function HandleUserTimeout() {
+            var userSession = '240';
+            if (userSession == "") {
+                window.localStorage.clear();
+                window.location.href = '/Account/Logout';
+            }
+
+            SetServerTimeInLocalStorage();
+
+            var reminingMins = GetRemainingTimeOut();
+            //alert("reminingMins" + reminingMins);
+            if (reminingMins == 1)
+            {
+                if (!confirmThere)
+                {
+                    count = 60;
+                    ConfirmForLogout();
+                    confirmThere = true;
+                }
+            }
+
+        }
+
+        function GetLeadingValues(valOfObj) {
+            var valOfObject = '' + valOfObj
+            var newValue = '';
+            if (valOfObject.length < 2) {
+                newValue = '' + '0' + valOfObject.toString();
+            }
+            else {
+                newValue = '' + valOfObject.toString();
+            }
+
+            return newValue;
+        }
+
+        function SetServerTimeInLocalStorage() {
+            var prevValue = localStorage.getItem("SesTime");
+            if (prevValue == null) {
+                SetNewTimeStorage();
+            }
+            else {
+                var oldTime = prevValue;
+                var newTime;
+
+                if (newAjaxDetected) {
+                    newTime = CurrentLocalTime();
+                    newAjaxDetected = false;
+                }
+                else {
+                    newTime = '10/22/2024 07:36:33';
+                }
+
+                var start = new Date(oldTime);
+                var end = new Date(newTime);
+
+                if (end > start) {
+                    //check the date is latest or not before assigning.
+                    localStorage.setItem("SesTime", newTime);
+                }
+
+            }
+        }
+
+        function SetNewTimeStorage() {
+            var serverTime = '10/22/2024 07:36:33';
+            localStorage.setItem("SesTime", serverTime);
+        }
+
+        function GetRemainingTimeOut()
+        {
+            var userSession = '240';
+            var serverTime = localStorage.getItem("SesTime");
+
+            var locTime=CurrentLocalTime();
+            var start = new Date(serverTime);
+            var end = new Date(locTime);
+            var durtionUserHasNotClicked = end - start;
+            var resultInMinutes = Math.round(durtionUserHasNotClicked / 60000);
+            var reminingMins = userSession - resultInMinutes;
+            return reminingMins;
+        }
+
+        function CurrentLocalTime()
+        {
+            var currentDate = new Date();
+            var localTime = GetLeadingValues((currentDate.getUTCMonth() + 1)) + "/"
+                            + GetLeadingValues(currentDate.getUTCDate()) + "/"
+                            + currentDate.getUTCFullYear() + " "
+                            + GetLeadingValues(currentDate.getUTCHours()) + ":"
+                            + GetLeadingValues(currentDate.getUTCMinutes()) + ":"
+                            + GetLeadingValues(currentDate.getUTCSeconds());
+
+
+            return localTime;
+        }
+
+        // this function is only for testing purpos.
+        function CurrentServerTime()
+        {
+            return serverTime = '10/22/2024 07:36:33';
+        }
+
+
+        function ConfirmForLogout()
+        {
+            timer_PopUpTimer = setInterval('timer2()', 1000); //1000 will  run it every 1 second
+            $.when(showConfirmationWindow('Your session will expire in ' + '<span id="timerContent" style="display: inline;font-size: 30px;font-style: bold"></span>' + ' seconds, press Sign me out to log out ' + 'or press Keep me signed in to remain logged in.')).then(function (confirmed) {
+                if (confirmed) {
+                    window.localStorage.clear();
+                    window.location.href = '/Account/Logout';
+                }
+                else {
+                    $.ajax({
+                        type: "Get",
+                        dataType: 'html',
+                        contentType: 'application/json; charset=utf-8',
+                        url: "/Account/IncreaseServerTime",
+                        data: { },
+                        success: function (data) {
+                            if (data != '') {
+                                localStorage.setItem("SesTime", data);
+                                confirmThere = false;
+                                count = 60;
+                                clearInterval(timer_PopUpTimer);
+                                timer_PopUpTimer = undefined;
+                            }
+                            else {
+                                alert("Sorry !! you have been logged out. Please login again");
+                                window.localStorage.clear();
+                                window.location.href = '/Account/Logout';
+                            }
+                    },
+                    error: function () {
+                    }
+                });
+                }
+            });
+        }
+
+        var count = 60;
+        function timer2() {
+            count = count - 1;
+            if (count == -1) {
+                //this condition may never meet, but keep it for accedential event
+                confirmThere = false;
+                count = 60;
+                $('#popupWindow').data('kendoWindow').close();
+                clearInterval(timer_PopUpTimer);
+                timer_PopUpTimer = undefined;
+                return;
+            }
+
+
+            var reminingMins = GetRemainingTimeOut();
+
+            if (reminingMins > 1) {
+                confirmThere = false;
+                count = 60;
+                $('#popupWindow').data('kendoWindow').close();
+                clearInterval(timer_PopUpTimer);
+                timer_PopUpTimer = undefined;
+                return;
+            }
+
+            $("#timerContent").html(count);
+
+            if (count == 0) {
+                var reminingMins = GetRemainingTimeOut();
+                if (reminingMins > 1) {
+                    confirmThere = false;
+                    count = 60;
+                    $('#popupWindow').data('kendoWindow').close();
+                    clearInterval(timer_PopUpTimer);
+                    timer_PopUpTimer = undefined;
+                    return;
+                }
+                else {
+                    window.localStorage.clear();
+                    window.location.href = '/Account/Logout';
+                }
+
+            }
+        }
+
+</script>
+
+
+13:06:34.343 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 17; columnNumber: 36; The string "--" is not permitted within comments.
+13:06:34.345 status code was: 500, expected: 200, response time: 1534, url: https://ccerrts-dev.callthecar.com/Member/Member/MemberSearchPanel?page=1&pageSize=20&MemberID=ztestmember1021, response: <!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+      ================================================== -->
+    <meta charset="utf-8">
+    <title>Error - Call The Car</title>
+    <meta http-equiv="refresh" content="36000;url=/Account/LogOff" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile   Specific Meta  --
+      ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+      ================================================== -->
+    <link href="/Content/cssnew?v=qgFCrENWEdGKhHLR_kshgMhtHUloFUUTJgxm90t8KOM1" rel="stylesheet"/>
+
+    <link href="/Content/kendo/2023.1.314/css?v=ZZdxUiBZXt5FWSZf4Hn0YtoIIB54tBDUMh4dnLj4PTc1" rel="stylesheet"/>
+
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Favicons
+       ================================================== -->
+    <link rel="shortcut icon" href="/Content/Images/favicon.png">
+    <link rel="apple-touch-icon" href="/Content/Images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Content/Images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Content/Images/apple-touch-icon-114x114.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
+    <!-- JS
+     ================================================== -->
+    
+    <script src="/bundles/jquery?v=JL596WEzEYSLK79KRL4It4N63VXpRlW4A824KHlhVLc1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="/Scripts/kendo/2023.1.314/kendo?v=VBYb5G5puSreWSFs2V8MALj_quFotT-z4htUYnB2LLs1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="/Content/bootstrap-iso.min.css">
+    <link rel="stylesheet" href="/Content/override.css">
+    <style type="text/css">
+        .validation-error {
+            border: 1px solid #ff0000;
+            background-color: #ffeeee;
+            display: block;
+        }
+
+        .k-window-titlebar {
+            position: relative;
+            height: 2.1em;
+        }
+
+        /*To set red clolor of submit button*/
+        input[type=submit] {
+            background-color: #c12e2a;
+            border: solid 1px #c12e2a;
+        }
+    </style>
+    <script src="/Scripts/kendo/2023.1.314/jszip.min.js"></script>
+</head>
+
+<body class="sidebar">
+    <div class="loader" title="Loading..">Loading. Please wait..</div>
+    <span id="loadingimage" class="k-icon k-loading" style="display: none;"></span>
+    <script src="/Scripts/scroll?v=ZKnsSyBmbmCHMUwLX9DefRoYVZMbqjv2XOiLZg-7hTI1"></script>
+
+    <!--Strat Main Container-->
+    <div id="body-wrapper">
+        <!--Strat header-->
+        
+        <!--end header-->
+        <!--Strat main-container-->
+        <div class="main-container">
+
+            
+            <!-- Left side column. contains the logo and sidebar -->
+                <aside id="sidebar" class="col-sm-3 left-panel main-sidebar align-self-end" tabindex="5000" style="overflow: hidden; outline: none;">
+
+                    <div class="treeview headerLogo">
+
+                        <a href="/Account/Dashboard" style="text-decoration: none;">
+                            <div class="new-icon-Container" style="height: auto">
+                                <img src="/Content/Images/logo-dark.svg" class="headerLogoImg">
+                            </div>
+                            <img class="headerLogoText" src="/Content/Images/logotextwhite.svg">
+                        </a>
+
+                    </div>
+                    <hr style="width: 100%; opacity: 0.25; margin: 16px 0 !important;" />
+                    <!-- sidebar: style can be found in sidebar.less -->
+
+                    <div class="sidebar">
+    <ul id="dynMenu" class="sidebar-menu">
+        <li class="treeview">
+            <a href="/Account/Dashboard">
+                <div class="new-icon-Container">
+                    <span class="material-icons">home</span>
+                </div>
+                <span>Home</span>
+                <span class="material-icons md-14 pull-right"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+<script>
+
+    function buildMenu(userType, userPermissions, adminList, userPagePermissions, isGrievanceModuleAccessible) {
+        console.log("building menu...");
+        var menu = document.getElementById("dynMenu");
+        var canList = userPermissions.map(x => x.ControllerActionName);
+        var pdList = userPermissions.map(x => x.PermissionDescription);
+        console.log(pdList);
+        if (userType == 5 || userType == 7) {
+            if (userPagePermissions.Administrator) {
+                menu.innerHTML += `<li>
+                <a href="/Credentials/Subcontractor/SubcontractorAccess">
+                    <div class="new-icon-Container">
+                        <span class="material-icons">admin_panel_settings</span>
+                    </div>
+                    <span>Admin</span>
+                    <span class="material-icons md-14 pull-right">chevron_left</span>
+                </a>
+
+            </li>`;
+            }
+            if (userPagePermissions.Dispatch) {
+                menu.innerHTML += `<li>
+                    <a href="/Credentials/Subcontractor/SubcontractorDispatch">
+                        <div class="new-icon-Container">
+                            <span class="material-icons">
+                                airport_shuttle
+                            </span>
+                        </div>
+                        <span>Dispatch</span>
+                        <span class="material-icons md-14 pull-right">chevron_left</span>
+                    </a>
+                </li>`;
+            }
+            if (userPagePermissions.Cliam) {
+                menu.innerHTML += `<li>
+    <a href="">
+        <div class="new-icon-Container">
+            <span class="material-icons">receipt_long</span>
+        </div>
+        <span>Claims</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>
+</li>`;
+            }
+            if (userPagePermissions.Credentialing) {
+                menu.innerHTML += `<li>
+    <a href="">
+        <div class="new-icon-Container">
+            <span class="material-icons">receipt_long</span>
+        </div>
+        <span>Credentialing</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>
+</li>`;
+            }
+        }
+        if (adminList.IsClientAdmin) {
+            menu.innerHTML += `<li>
+            <a href="/Client/Client/ClientAccess">
+                <div class="new-icon-Container">
+                    <span class="material-icons">supervised_user_circle</span>
+                </div>
+                <span>Access</span>
+            </a>
+        </li>`;
+        }
+        if (adminList.IsFacilityAdmin) {
+            menu.innerHTML += `<li>
+    <a href="/Facility/Facility/Access">
+        <div class="new-icon-Container">
+            <span class="material-icons">supervised_user_circle</span>
+        </div>
+        <span>Access</span>
+    </a>
+</li>`;
+        }
+        if (pdList.filter((x) => x.startsWith("Admin")).length > 0) {
+            console.log("has admin priv...");
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons">admin_panel_settings</span>
+            </div>
+            <span>Admin</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.filter((x) => x.startsWith("Master")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Lookup Fields<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+                if (canList.includes("Master-Designation")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/Designation">Job Title</a></li>';
+                }
+                if (canList.includes("Master-LevelOfService")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/LevelOfService">Level Of Service</a></li>';
+                }
+                if (canList.includes("Master-Tag")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/Tag">Tag</a></li>';
+                }
+                if (canList.includes("Master-NoteCategory")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Master/NoteCategory">Note Category</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+
+                var temp2 = document.createElement("li"); // Sub-menu
+                temp2.innerHTML += '<a href="#">Credentialing Master<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp2 = document.createElement("ul");
+                ulTemp2.classList += "treeview-menu";
+                if (canList.includes("Master-InsuranceBroker")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/InsuranceBroker">Insurance Broker</a></li>';
+                }
+                if (canList.includes("Master-InsuranceCarrier")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/InsuranceCarrier">Insurance Carrier</a></li>';
+                }
+                if (canList.includes("Master-VehicleServiceTask")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleServiceTask">Vehicle Service Task</a></li>';
+                }
+                if (canList.includes("Master-VehicleServiceCenter")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleServiceCenter">Vehicle Service Center</a></li>';
+                }
+                if (canList.includes("Master-VehicleMake")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleMake">Vehicle Make</a></li>';
+                }
+                if (canList.includes("Master-VehicleModel")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/VehicleModel">Vehicle Model</a></li>';
+                }
+                if (canList.includes("Master-TrainingType")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/TrainingType">Training Type</a></li>';
+                }
+                if (canList.includes("Master-ScreeningVendor")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/ScreeningVendor">Screening Vendor</a></li>';
+                }
+                if (canList.includes("Master-TrainingVendor")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/TrainingVendor">Training Vendor</a></li>';
+                }
+                if (canList.includes("Master-ScreeningType")) {
+                    ulTemp2.innerHTML += '<li><a href="/Admin/Master/ScreeningType">Screening Type</a></li>';
+                }
+                temp2.appendChild(ulTemp2);
+                parentUl.appendChild(temp2);
+
+                var temp3 = document.createElement("li"); // Sub-menu
+                temp3.innerHTML += '<a href="#">Rate <span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp3 = document.createElement("ul");
+                ulTemp3.classList += "treeview-menu";
+                if (canList.includes("Master-Region")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/Region">Region</a></li>';
+                }
+                if (canList.includes("Master-RegulatedRate")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/RegulatedRate">Regulated Rate</a></li>';
+                }
+                if (canList.includes("Master-RegulatedTagRate")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/RegulatedTagRate">Regulated Tag Rate</a></li>';
+                }
+                if (canList.includes("Master-CostTier")) {
+                    ulTemp3.innerHTML += '<li><a href="/Admin/Master/CostTier">Cost Tier</a></li>';
+                }
+                temp3.appendChild(ulTemp3);
+                parentUl.appendChild(temp3);
+
+                var temp4 = document.createElement("li"); // Sub-menu
+                temp4.innerHTML += '<a href="#">Audit <span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp4 = document.createElement("ul");
+                ulTemp4.classList += "treeview-menu";
+                if (canList.includes("Employee-Audit")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Master/Region">Region</a></li>';
+                }
+                if (canList.includes("Employee-AuditLogRead")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Employee/AuditLogRead">Audit Read</a></li>';
+                }
+                if (canList.includes("Employee-MailicousActivityHistory")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Employee/MailicousActivityHistory">Malicious Activity</a></li>';
+                }
+                if (canList.includes("Employee-LoginHistory")) {
+                    ulTemp4.innerHTML += '<li><a href="/Admin/Employee/LoginHistory">Login History</a></li>';
+                }
+                temp4.appendChild(ulTemp4);
+                parentUl.appendChild(temp4);
+            }
+            if (canList.filter((x) => x.startsWith("Employee")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Administration <span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+
+                if (canList.includes("Roles-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Roles">Role Setup</a></li>';
+                }
+                if (canList.includes("Permissions-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Permissions">Permissions Setup</a></li>';
+                }
+                if (canList.includes("Employee-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Employee">System Users</a></li><li><a href="/Admin/Employee/BulkCreate">Bulk Create</a></li><li><a href="/Admin/Employee/BulkDelete">Bulk Delete</a></li>';
+                }
+                if (canList.includes("Broker-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Broker">Broker</a></li>';
+                }
+                if (canList.includes("Scorecard-Index")) {
+                    ulTemp.innerHTML += '<li><a href="/Admin/Scorecards">Scorecards</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.startsWith("Member")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+        <div class="new-icon-Container">
+            <span class="material-icons">people</span>
+        </div>
+        <span>Member</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Member-MemberList")) {
+                parentUl.innerHTML += '<li><a href="/Member/Member/MemberList">Member Search</a></li>';
+            }
+            if (canList.includes("Member-Create")) {
+                parentUl.innerHTML += '<li><a href="/Member/Member/Create">Add Member</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.startsWith("Facility")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons">business</span>
+            </div>
+            <span>Facility</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Facility-Index")) {
+                parentUl.innerHTML += '<li><a href="/Facility/Facility">Facility Search</a></li>';
+            }
+            if (canList.includes("Facility-Create")) {
+                parentUl.innerHTML += '<li><a href="/Facility/Facility/Create">Add Facility</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.startsWith("Reservation")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons new-icons">event_available</span>
+            </div>
+            <span>Reservation</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Reservation-Index")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation">Reservation Search</a></li>';
+            }
+            if (canList.includes("Reservation-ReservationOrderSearch")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation/ReservationOrderSearch">Reservation Order Search</a></li>';
+            }
+            if (canList.includes("Reservation-Create")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation/Create">Create</a></li>';
+            }
+            if (canList.includes("Reservation-TripExport")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/Reservation/TripExport">Export Trip</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+
+        if (pdList.filter((x) => x.startsWith("Client Billing")).length > 0) {
+
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+         <div class="new-icon-Container">
+             <span class="material-icons new-icons">receipt_long</span>
+         </div>
+         <span>Billing</span>
+         <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Billing-CalculateIncentive")) {
+                parentUl.innerHTML += '<li><a href="/Billing/Billing/CalculateIncentive"  style=\"text-wrap: wrap;\">Calculate CCAH VIP Incentive</a></li>';
+            }
+            if (canList.includes("VoidClaim-AddVoidClaim") || canList.includes("VoidClaim-VoidClaimApproval") || canList.includes("VoidClaim-VoidClaimCheckStatus")) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Void Claim<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+                if (canList.includes("VoidClaim-AddVoidClaim")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/VoidClaim/AddVoidClaim">Add Void Claim</a></li>';
+                }
+                if (canList.includes("VoidClaim-VoidClaimApproval")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/VoidClaim/VoidClaimApproval">Void Claim Approval</a></li>';
+                }
+                if (canList.includes("VoidClaim-VoidClaimCheckStatus")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/VoidClaim/VoidClaimCheckStatus">Void Claim Status</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+            }
+            if (canList.includes("ReplacementClaim-AddReplacementClaim") || canList.includes("ReplacementClaim-ReplacementClaimApproval") || canList.includes("ReplacementClaim-ReplacementClaimCheckStatus")) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Replacement Claim<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                var ulTemp = document.createElement("ul");
+                ulTemp.classList += "treeview-menu";
+                if (canList.includes("ReplacementClaim-AddReplacementClaim")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/ReplacementClaim/AddReplacementClaim"  style=\"text-wrap: wrap;\">Add Replacement Claim</a></li>';
+                }
+                if (canList.includes("ReplacementClaim-ReplacementClaimApproval")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/ReplacementClaim/ReplacementClaimApproval" style=\"text-wrap: wrap;\">Replacement Claim Approval</a></li>';
+                }
+                if (canList.includes("ReplacementClaim-ReplacementClaimCheckStatus")) {
+                    ulTemp.innerHTML += '<li><a href="/Billing/ReplacementClaim/ReplacementClaimCheckStatus" style=\"text-wrap: wrap;\">Replacement Claim Status</a></li>';
+                }
+                temp.appendChild(ulTemp);
+                parentUl.appendChild(temp);
+            }
+
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+
+        }
+
+
+        if (pdList.filter((x) => x.startsWith("StandingOrder")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+        <div class="new-icon-Container">
+            <span class="material-icons">update</span>
+        </div>
+        <span>Standing Order</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("StandingOrder-Index")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/StandingOrder">SO Search</a></li>';
+            }
+            if (canList.includes("StandingOrder-Create")) {
+                parentUl.innerHTML += '<li><a href="/Reservation/StandingOrder/Create">Create</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        var tempList = pdList.filter((x) => x.startsWith("Credentials"));
+        if (tempList.length > 0 && tempList != "Credentials- Dispatch") {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons">receipt_long</span>
+            </div>
+            <span>Credentialing</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.filter((x) => x.startsWith("Subcontractor")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Subcontractor<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                if (canList.includes("Subcontractor-Create")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Subcontractor/Create">Add Subcontractor</a></li></ul>';
+                }
+                if (canList.includes("Subcontractor-Index")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Subcontractor">Subcontractor Search</a></li></ul>';
+                }
+                parentUl.appendChild(temp);
+                parentLi.appendChild(parentUl);
+                menu.appendChild(parentLi);
+            }
+            if (canList.filter((x) => x.startsWith("Driver")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Driver<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                if (canList.includes("Driver-Create")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Driver/Create">Add Driver</a></li></ul>';
+                }
+                if (canList.includes("Driver-Index")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Driver">Driver Search</a></li></ul>';
+                }
+                parentUl.appendChild(temp);
+                parentLi.appendChild(parentUl);
+                menu.appendChild(parentLi);
+            }
+            if (canList.filter((x) => x.startsWith("Vehicle")).length > 0) {
+                var temp = document.createElement("li"); // Sub-menu
+                temp.innerHTML += '<a href="#">Vehicle<span class="material-icons md-14 pull-right">chevron_left</span></a>';
+                if (canList.includes("Vehicle-Create")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Vehicle/Create">Add Vehicle</a></li></ul>';
+                }
+                if (canList.includes("Vehicle-Index")) {
+                    temp.innerHTML += '<ul class="treeview-menu abc"><li><a href="/Credentials/Vehicle">Vehicle Search</a></li></ul>';
+                }
+                parentUl.appendChild(temp);
+                parentLi.appendChild(parentUl);
+                menu.appendChild(parentLi);
+            }
+        }
+        if (canList.filter((x) => x.startsWith("Subcontractor-Dispatch")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.innerHTML = `<a href="/Credentials/Subcontractor/Dispatch">
+                <div class="new-icon-Container">
+                    <span class="material-icons">
+                        airport_shuttle
+                    </span>
+                </div>
+                <span>Dispatch</span>
+            </a>`;
+            menu.appendChild(parentLi);
+        }
+
+        if (pdList.filter((x) => x.startsWith("Client")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+                <div class="new-icon-Container">
+                    <span class="material-icons">
+                        supervised_user_circle
+                    </span>
+                </div>
+                <span>Client</span>
+                <span class="material-icons md-14 pull-right">chevron_left</span>
+            </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            if (canList.includes("Client-Index")) {
+                parentUl.innerHTML += '<li><a href="/Client/Client">Client Search</a></li>';
+            }
+            if (canList.includes("Client-Create")) {
+                parentUl.innerHTML += '<li><a href="/Client/Client/Create">Create</a></li>';
+            }
+            if (canList.includes("MemberImport-Index")) {
+                parentUl.innerHTML += '<li><a href="/Client/MemberImport">Member Import</a></li>';
+            }
+            if (canList.includes("MemberImport-ImportHistory")) {
+                parentUl.innerHTML += '<li><a href="/Client/MemberImport/ImportHistory">Import History</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.includes("Report")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+                <div class="new-icon-Container">
+                    <span class="material-icons-outlined">
+                        summarize
+                    </span>
+                </div>
+                <span>Report</span>
+                <span class="material-icons md-14 pull-right">chevron_left</span>
+            </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            parentUl.innerHTML +=`<li><a href="/Report/TripReport">Trips by Date and Status</a></li>`;
+
+            if (canList.includes("TripReport-LyftReportIndex")) {
+                parentUl.innerHTML += '<li><a href="/Report/TripReport/LyftReportIndex">Lyft Report</a></li>';
+            }
+            if (canList.includes("TripReport-PCSReportIndex")) {
+                parentUl.innerHTML += '<li><a href="/Report/TripReport/PCSReportIndex">PCS Report</a></li>';
+            }
+            if (canList.includes("TripReport-ComplaintReportIndex")) {
+                parentUl.innerHTML += '<li><a href="/Report/TripReport/ComplaintReportIndex">Complaint Report</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+        if (pdList.filter((x) => x.includes("Finance")).length > 0) {
+            var parentLi = document.createElement("li");
+            parentLi.classList += "treeview";
+            parentLi.innerHTML = `<a href="#">
+            <div class="new-icon-Container">
+                <span class="material-icons-outlined">
+                    summarize
+                </span>
+            </div>
+            <span>Finance - Vendor Invoice</span>
+            <span class="material-icons md-14 pull-right">chevron_left</span>
+        </a>`;
+            var parentUl = document.createElement("ul");
+            parentUl.classList += "treeview-menu";
+            parentUl.innerHTML +='<li><a href="/Member/Finance/LoadInvoice">1) Load Invoice</a></li>';
+
+            if (canList.includes("Finance-AdjudicateInvoice")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/AdjudicateInvoice">2) Adjudicate Invoice</a>';
+            }
+            if (canList.includes("Finance-PendingClaims")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/PendingClaims"  style=\"text-wrap: wrap;\">3) Resolve Pending Claims</a></li>';
+            }
+            if (canList.includes("Finance-GenerateEOP")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/GenerateEOP">4) Generate EOP</a></li>';
+            }
+            if (canList.includes("Finance-GenerateCheck")) {
+                parentUl.innerHTML += '<li><a href="/Member/Finance/GenerateCheck">5) Generate Check</a></li>';
+            }
+            if (canList.includes("VendorClaim-VendorClaimUpdate")) {
+                parentUl.innerHTML += '<li><a href="/Billing/VendorClaim/VendorClaimUpdate"  style=\"text-wrap: wrap;\">6) Update Vendor Claim Status</a></li>';
+            }
+            parentLi.appendChild(parentUl);
+            menu.appendChild(parentLi);
+        }
+
+        if (pdList.filter((x) => x.includes("Complaint")).length > 0) {
+            menu.innerHTML += `<li>
+    <a href="https://newapi-dev.callthecar.com/complaints/search">
+        <div class="new-icon-Container">
+            <span class="material-icons">feedback</span>
+        </div>
+        <span>Complaints</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>
+</li>`;
+        }
+      if (userType == 3 && isGrievanceModuleAccessible) {
+        menu.innerHTML += `<li>
+    <a href="https://newapi-dev.callthecar.com/grievances">
+        <div class="new-icon-Container">
+            <span class="material-icons">feedback</span>
+        </div>
+        <span>Grievances</span>
+        <span class="material-icons md-14 pull-right">chevron_left</span>
+    </a>
+</li>`;
+    }
+    window.localStorage.setItem("builtMenu", JSON.stringify(menu.innerHTML));
+}
+
+    document.addEventListener('DOMContentLoaded', function (event) {
+        var builtMenu = window.localStorage.getItem("builtMenu");
+        if (builtMenu != null && builtMenu != "undefined") {
+            var menu = document.getElementById("dynMenu");
+            menu.innerHTML = JSON.parse(builtMenu);
+        } else {
+            var userType = window.localStorage.getItem("userType");
+            var userPermissions = window.localStorage.getItem("userPermissions");
+            var adminList = window.localStorage.getItem("adminList");
+            var userPagePermissions = window.localStorage.getItem("userPagePermissions");
+            var isGrievanceModuleAccessible = window.localStorage.getItem("isGrievanceModuleAccessible");
+            if (!userType || !userPermissions || userType == "undefined" || userPermissions == "undefined" || !adminList || adminList == "undefined" || !userPagePermissions || userPagePermissions == "undefined" || !isGrievanceModuleAccessible || isGrievanceModuleAccessible == "undefined") {
+                fetch("/Account/GetSessionInfo").then((response) => {
+                    return response.json();
+                })
+                    .then((data) => {
+                        console.log(data);
+                        if (data.userType) {
+                            window.localStorage.setItem("userType", data.userType);
+                            userType = data.userType;
+                        }
+                        if (data.userPermissions) {
+                            window.localStorage.setItem("userPermissions", JSON.stringify(data.userPermissions));
+                            userPermissions = data.userPermissions;
+                        }
+                        if (data.adminList) {
+                            window.localStorage.setItem("adminList", JSON.stringify(data.adminList));
+                            adminList = data.adminList;
+                        }
+                        if (data.userPagePermissions) {
+                            window.localStorage.setItem("userPagePermissions", JSON.stringify(data.userPagePermissions));
+                            userPagePermissions = data.userPagePermissions;
+                        }
+                        if (data.isGrievanceModuleAccessible) {
+                            window.localStorage.setItem("isGrievanceModuleAccessible", JSON.stringify(data.isGrievanceModuleAccessible));
+                            isGrievanceModuleAccessible = data.isGrievanceModuleAccessible;
+                        }
+                        buildMenu(userType, userPermissions, adminList, userPagePermissions, isGrievanceModuleAccessible);
+                    });
+            } else {
+
+                buildMenu(userType, JSON.parse(userPermissions), JSON.parse(adminList), JSON.parse(userPagePermissions), JSON.parse(isGrievanceModuleAccessible));
+            }
+        }
+
+        async function cacheStore(url) {
+
+            try {
+
+                // open cache
+                const cache = await caches.open("mySession");
+
+                // fetch and store response
+                await cache.add(url);
+                return true;
+
+            }
+            catch (err) {
+                return undefined; // store failed
+            }
+
+        }
+});
+</script>
+
+
+
+                    <!-- /.sidebar -->
+
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button" style="text-decoration: none; margin-top: auto !important;">
+                        <div class="new-icon-Container">
+                            <span class="material-icons-outlined">
+                                menu
+                            </span>
+                        </div>
+                    </a>
+
+                </aside>
+            <div class="right-panel" id="right-panel">
+                <nav class="navbar navbar-default" style="margin-bottom: 0;">
+
+                    <div id="navbar-inner">
+                        <!--<div class="col-lg-6">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for..." id="search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <span class="material-icons-outlined" style="font-size: 14px;">
+                                            search
+                                        </span>
+                                    </button>
+                                </span>
+                            </div>-->
+                        <!-- /input-group -->
+                        <!--</div>
+                        <div class="input-group">
+
+                            <input id="search" class="form-control" type="text" placeholder="Search" data-bs-toggle="dropdown">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                </button>
+                            </span>
+
+                            <ul id="searchResults" class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 94%"></ul>
+                        </div>-->
+                        <ul class="nav navbar-nav navbar-right" style="margin-right: 0 !important;">
+                            <li>
+                                <span class="navbar-text" style="margin-right: 0">hkoshti</span>
+                            </li>
+                            <li class="dropdown" style="margin-right: 1rem;">
+
+                                <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                   role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                    <img id="mePhoto" src="" class="rounded-circle" style="vertical-align: baseline;"
+                                         height="24" alt="Avatar" loading="lazy" />
+                                    <span class="material-icons">
+                                        arrow_drop_down
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <input type="checkbox" id="spaMode" checked onclick="setLayout()">
+                                            New Layout
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="dropdown-item" onclick="logOut()">Log Off</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <div class="content-area">
+                    <div aria-live="polite" aria-atomic="true" class="position-relative" style="z-index: 1040">
+                        <div id="toast-container" class="bootstrapiso position-absolute top-0 end-0 p-3">
+
+                        </div>
+                    </div>
+                    <div class="lds-dual-ring fade" id="loading-spinner"></div>
+                    <div id="spa-content">
+                        <div id="body">
+                            
+<script type="text/javascript">
+    function getUserType(){
+        return MySession.UserType
+    }
+</script>
+
+<hgroup>
+    <h1 class="text-error">Error.</h1>
+    <h2 class="text-error">An error occurred while processing your request.</h2>
+    <p>Controller name: Member</p>
+    <p>Action name: MemberSearchPanel</p>
+    <p>Message: This request has been blocked because sensitive information could be disclosed to third party web sites when this is used in a GET request. To allow GET requests, set JsonRequestBehavior to AllowGet.</p>
+</hgroup>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end main-container-->
+        <div class="clearfix"></div>
+        
+    </div>
+    <!--End Main container-->
+    <div class="modal fade bootstrap-iso" id="addressModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Suggestion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group" id="addressList">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Start Kendo Notification-->
+    <span id="notification"></span><script>
+	kendo.syncReady(function(){jQuery("#notification").kendoNotification({"position":{"right":50,"top":50},"stacking":"down","autoHideAfter":0,"templates":[{"type":"info","templateId":"emailTemplate"},{"type":"error","templateId":"errorTemplate"},{"type":"success","templateId":"successTemplate"},{"type":"warning","templateId":"warningTemplate"}]});});
+</script>
+
+    <script id="emailTemplate" type="text/x-kendo-template">
+        <div class="info">
+            <i class="fa fa-info-circle fa-lg"></i>
+            <p>#= message #</p>
+        </div>
+    </script>
+
+    <script id="errorTemplate" type="text/x-kendo-template">
+        <div class="bootstrap-iso error">
+        <div class="row">
+            <div class="col-2 align-self-center">
+                <span class="material-icons" style="vertical-align:middle; color: red; font-size: 2rem;">highlight_off</span>
+            </div>
+            <div class="col">
+                <h5>#= title #</h5>
+                <p>#= message #</p>
+            </div>
+        </div>
+        </div>
+    </script>
+    <script id="warningTemplate" type="text/x-kendo-template">
+        <div class="bootstrap-iso error">
+        <div class="row">
+            <div class="col-2 align-self-center">
+                <span class="material-icons" style="vertical-align:middle; font-size: 2rem;">info</span>
+            </div>
+            <div class="col">
+                <h5>#= title #</h5>
+                <p>#= message #</p>
+            </div>
+        </div>
+        </div>
+    </script>
+    <script id="successTemplate" type="text/x-kendo-template">
+        <div class="bootstrap-iso notification">
+        <div class="row">
+            <div class="col-2 align-self-center">
+                <span class="material-icons" style="vertical-align:middle; font-size: 2rem;">check_circle_outline</span>
+            </div>
+            <div class="col">
+                <p>#= message #</p>
+            </div>
+        </div>
+        </div>
+    </script>
+    <!--End Kendo Notification-->
+    <script src="/Scripts/custom.js"></script>
+    <script src="/Scripts/app.js"></script>
+    
+    <script src="/Scripts/mvcfoolproof?v=Eh3OlHJ-NJnHMr2iVDY_Pu4TnCNjk_LfeCbNU_ECPjY1"></script>
+
+    
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyB1VOOk3D-ZX1ZbpAQtKOCZy7LnMkSmrFA&libraries=places"></script>
+</body>
+</html>
+
+<script id="confirmationTemplate" type="text/x-kendo-template">
+    <div class="popupMessage" style="color: red;"></div>
+    <hr />
+    <div class="dialog_buttons" style="float: right;">
+        <input type="button" class="confirm_no k-button" value="No" />
+        &nbsp;
+        <input type="button" class="confirm_yes k-button" value="Yes" />
+    </div>
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () { setImage(); });
+    function setImage() {
+        var photo = '';
+        if (photo != '' && photo != null) {
+            window.localStorage.setItem("mePhoto", photo);
+            document.getElementById("mePhoto").src = photo;
+        } else {
+            var localPhoto = window.localStorage.getItem("mePhoto");
+            if (localPhoto != '' && localPhoto != null) {
+                document.getElementById("mePhoto").src = localPhoto;
+            } else {
+                document.getElementById("mePhoto").src = "/Content/Images/account_circle.svg";
+            }
+        }
+    }
+
+    function logOut() {
+        window.localStorage.clear();
+        window.location.replace("/Account/LogOff");
+    }
+    function setLayout() {
+        $.ajax({
+                    type: "POST",
+                    dataType: 'json',
+                    contentType: 'application/json; charset=utf-8',
+                    url: "/Account/SetLayout",
+                    data: JSON.stringify({ layout: "old" }),
+                    success: function (data) {
+                        location.reload();
+                    },
+                    error: function () {}
+                });
+    }
+    function showConfirmationWindow(message) {
+        return showWindow('#confirmationTemplate', message)
+    };
+
+    function showWindow(template, message) {
+
+        var dfd = new jQuery.Deferred();
+        var result = false;
+
+        $("<div id='popupWindow'></div>")
+            .appendTo("body")
+            .kendoWindow({
+                width: "350px",
+                modal: true,
+                title: "Session About to Expire!",
+                modal: true,
+                visible: false,
+                close: function (e) {
+                    this.destroy();
+                    dfd.resolve(result);
+                }
+            }).data('kendoWindow').content($(template).html()).center().open();
+
+        $('.popupMessage').html(message);
+
+
+        $('#popupWindow .confirm_no').val('Keep me signed in');
+        $('#popupWindow .confirm_yes').val('Sign me out');
+
+        $('#popupWindow .confirm_no').click(function () {
+            $('#popupWindow').data('kendoWindow').close();
+            //ConfirmThere = false;
+            //count = 60;
+        });
+
+        $('#popupWindow .confirm_yes').click(function () {
+            result = true;
+            $('#popupWindow').data('kendoWindow').close();
+            // ConfirmThere = false;
+            // count = 60;
+        });
+
+        return dfd.promise();
+    };
+
+    const search = document.getElementById("search");
+    const sResults = document.getElementById("searchResults");
+    var timeout;
+    if (search) {
+        search.onkeyup = function () {
+            if (timeout !== null) {
+                clearTimeout(timeout);
+            }
+            timeout = setTimeout(() => {
+                let results = [];
+                const userInput = this.value;
+                if (userInput.length > 2) {
+                    $.ajax({
+                        type: "GET",
+                        dataType: 'html',
+                        contentType: 'application/json; charset=utf-8',
+                        url: "/Common/Search",
+                        data: { searchText: userInput },
+                        success: function (data) {
+                            processResults(data, userInput);
+                        },
+                        error: function () {}
+                    });
+                }
+            }, 1000);
+        }
+    }
+    var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+    var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+        return new bootstrap.Dropdown(dropdownToggleEl)
+    })
+
+    function goToMember(id) {
+        var b64 = btoa(id);
+        window.open(`/Member/Member/Detail?prm=${b64}`, '_blank');
+    }
+
+    function goToTrip(id) {
+        var b64 = btoa(id);
+        window.open(`/Reservation/Reservation/Detail/${b64}`, '_blank');
+    }
+    function hl(input, tmplStr) {
+        var reg = new RegExp(`(${input})(.*)`, "i");
+        if (reg.test(tmplStr)) {
+            var arr = tmplStr.match(reg);
+            return `${arr[1]}<small class="text-muted">${arr[2]}</small>`;
+        } else {
+            return tmplStr;
+        }
+    }
+    function fn(dos, puTime, tripId) {
+        var str = ``;
+        if (dos != null) {
+            var today = new Date();
+            var dosP = new Date(dos);
+            var puTimeFormat = new Date('1970-01-01T' + puTime + 'Z').toLocaleTimeString("en-US", {
+                hour: 'numeric',
+                minute: 'numeric',
+                hour12: true});
+            if (dosP.getDate == today.getDate) {
+                str = `<a class="dropdown-item" href="#" onclick="goToTrip(${tripId.toString()})"><p class="mb-1 indent">Trip today at ${puTimeFormat}.</p></a>`;
+            } else {
+                str = `<a class="dropdown-item" href="#" onclick="goToTrip(${tripId.toString()})"><p class="mb-1 indent">Trip on ${dosP.toLocaleDateString('en-US')} at ${puTime}.</p></a>`;
+            }
+        } else {
+            str = `<a class="dropdown-item" href="#"><p class="mb-1 indent">No trips soon.</p></a>`;
+        }
+        return str;
+    }
+    function processResults(results, userInput) {
+        var obj = JSON.parse(results);
+        var children = [];
+        if (obj.Members) {
+            var liTemp = document.createElement('li');
+            var inner = `<h6 class="dropdown-header">Members</h6>`;
+            liTemp.innerHTML = inner;
+            children.push(liTemp);
+            for (let i = 0; i < obj.Members.length; i++) {
+                var index = children.findIndex(x => x.innerHTML.includes(obj.Members[i].MemberId));
+                if (index == -1) {
+                    console.log(children);
+                    var liTemp = document.createElement('li');
+                    var displayName = obj.Members[i].FirstName + " " + obj.Members[i].LastName;
+                    var dob = new Date(obj.Members[i].DOB);
+                    var liInner = `<a class="dropdown-item" href="#" onclick="goToMember(${hl(userInput, obj.Members[i].Id.toString())})">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">${hl(userInput, displayName)} ${obj.Members[i].MemberId}</p>
+                                    <small class="text-muted">${hl(userInput, dob.toLocaleDateString('en-US'))}</small>
+                                </div>
+                                ${fn(obj.Members[i].DateOfService, obj.Members[i].PickUpTime, obj.Members[i].TripId)}
+                            </a>`;
+                    liTemp.innerHTML = liInner;
+                    children.push(liTemp);
+                } else {
+                    if (obj.Members[i].DateOfService != null) {
+                        children[index].lastChild = `${fn(obj.Members[i].DateOfService, obj.Members[i].PickUpTime, obj.Members[i].TripId)}`;
+                    }
+                }
+            }
+        }
+        if (obj.Trips) {
+            var liTemp = document.createElement('li');
+            var inner = `<h6 class="dropdown-header">Trips</h6>`;
+            liTemp.innerHTML = inner;
+            children.push(liTemp);
+            for (let i = 0; i < obj.Trips.length; i++) {
+                var liTemp = document.createElement('li');
+                var dos = new Date(obj.Trips[i].DateOfService);
+                var liInner = `<a class="dropdown-item" href="#" onclick="goToTrip(${hl(userInput, obj.Trips[i].TripId.toString())})">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">${hl(userInput, obj.Trips[i].TripNo)}</h5>
+                                    <small class="text-muted">${hl(userInput, dos.toLocaleDateString('en-US'))}</small>
+                                </div>
+                            </a>`;
+                liTemp.innerHTML = liInner;
+                children.push(liTemp);
+            }
+        }
+        if (obj.Addresses) {
+            var liTemp = document.createElement('li');
+            var inner = `<h6 class="dropdown-header">Addresses</h6>`;
+            liTemp.innerHTML = inner;
+            children.push(liTemp);
+            for (let i = 0; i < obj.Addresses.length; i++) {
+                if (!children.some(x => x.innerHTML.includes(obj.Addresses[i].Zipcode))) {
+                    var liTemp = document.createElement('li');
+                    var latterAddress = `${obj.Addresses[i].City} ${obj.Addresses[i].Zipcode}`;
+                    var liInner = `<a class="dropdown-item" href="#">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">${hl(userInput, obj.Addresses[i].AddressLine1)}</h5>
+                                    <small class="text-muted">${hl(userInput, latterAddress)}</small>
+                                </div>
+                                <a class="dropdown-item" href="#"><p class="mb-1 indent">Search for Members with this address?</p></a>
+                                <a class="dropdown-item" href="#"><p class="mb-1 indent">Search for Trips going to this address?</p></a>
+                            </a>`;
+                    liTemp.innerHTML = liInner;
+                    children.push(liTemp);
+                }
+            }
+        }
+        sResults.replaceChildren(...children);
+    }
+
+
+        var newAjaxDetected = false;
+
+        $(document).ajaxComplete(function () {
+            //alert("ALL current AJAX calls have completed");
+            newAjaxDetected = true;
+
+        });
+
+        var confirmThere = false;
+        var timer_PopUpTimer;
+        var userSession = '240';
+    var meObj = '';
+    console.log(meObj);
+        //alert("userSession " + userSession);
+
+        if (userSession != "") {
+            SetServerTimeInLocalStorage();
+            var interval;
+           // interval = setInterval('HandleUserTimeout()', 1000);//fire every 1 seconds
+        }
+        else {
+            if (!(window.location.href.indexOf("Login") > -1 || window.location.href.indexOf("ForgotPassword") > -1 || window.location.href.indexOf("ChangePassword") > -1)) {
+                window.localStorage.clear();
+                window.location.href = '/Account/Logout';
+            }
+        }
+
+        function HandleUserTimeout() {
+            var userSession = '240';
+            if (userSession == "") {
+                window.localStorage.clear();
+                window.location.href = '/Account/Logout';
+            }
+
+            SetServerTimeInLocalStorage();
+
+            var reminingMins = GetRemainingTimeOut();
+            //alert("reminingMins" + reminingMins);
+            if (reminingMins == 1)
+            {
+                if (!confirmThere)
+                {
+                    count = 60;
+                    ConfirmForLogout();
+                    confirmThere = true;
+                }
+            }
+
+        }
+
+        function GetLeadingValues(valOfObj) {
+            var valOfObject = '' + valOfObj
+            var newValue = '';
+            if (valOfObject.length < 2) {
+                newValue = '' + '0' + valOfObject.toString();
+            }
+            else {
+                newValue = '' + valOfObject.toString();
+            }
+
+            return newValue;
+        }
+
+        function SetServerTimeInLocalStorage() {
+            var prevValue = localStorage.getItem("SesTime");
+            if (prevValue == null) {
+                SetNewTimeStorage();
+            }
+            else {
+                var oldTime = prevValue;
+                var newTime;
+
+                if (newAjaxDetected) {
+                    newTime = CurrentLocalTime();
+                    newAjaxDetected = false;
+                }
+                else {
+                    newTime = '10/22/2024 07:36:33';
+                }
+
+                var start = new Date(oldTime);
+                var end = new Date(newTime);
+
+                if (end > start) {
+                    //check the date is latest or not before assigning.
+                    localStorage.setItem("SesTime", newTime);
+                }
+
+            }
+        }
+
+        function SetNewTimeStorage() {
+            var serverTime = '10/22/2024 07:36:33';
+            localStorage.setItem("SesTime", serverTime);
+        }
+
+        function GetRemainingTimeOut()
+        {
+            var userSession = '240';
+            var serverTime = localStorage.getItem("SesTime");
+
+            var locTime=CurrentLocalTime();
+            var start = new Date(serverTime);
+            var end = new Date(locTime);
+            var durtionUserHasNotClicked = end - start;
+            var resultInMinutes = Math.round(durtionUserHasNotClicked / 60000);
+            var reminingMins = userSession - resultInMinutes;
+            return reminingMins;
+        }
+
+        function CurrentLocalTime()
+        {
+            var currentDate = new Date();
+            var localTime = GetLeadingValues((currentDate.getUTCMonth() + 1)) + "/"
+                            + GetLeadingValues(currentDate.getUTCDate()) + "/"
+                            + currentDate.getUTCFullYear() + " "
+                            + GetLeadingValues(currentDate.getUTCHours()) + ":"
+                            + GetLeadingValues(currentDate.getUTCMinutes()) + ":"
+                            + GetLeadingValues(currentDate.getUTCSeconds());
+
+
+            return localTime;
+        }
+
+        // this function is only for testing purpos.
+        function CurrentServerTime()
+        {
+            return serverTime = '10/22/2024 07:36:33';
+        }
+
+
+        function ConfirmForLogout()
+        {
+            timer_PopUpTimer = setInterval('timer2()', 1000); //1000 will  run it every 1 second
+            $.when(showConfirmationWindow('Your session will expire in ' + '<span id="timerContent" style="display: inline;font-size: 30px;font-style: bold"></span>' + ' seconds, press Sign me out to log out ' + 'or press Keep me signed in to remain logged in.')).then(function (confirmed) {
+                if (confirmed) {
+                    window.localStorage.clear();
+                    window.location.href = '/Account/Logout';
+                }
+                else {
+                    $.ajax({
+                        type: "Get",
+                        dataType: 'html',
+                        contentType: 'application/json; charset=utf-8',
+                        url: "/Account/IncreaseServerTime",
+                        data: { },
+                        success: function (data) {
+                            if (data != '') {
+                                localStorage.setItem("SesTime", data);
+                                confirmThere = false;
+                                count = 60;
+                                clearInterval(timer_PopUpTimer);
+                                timer_PopUpTimer = undefined;
+                            }
+                            else {
+                                alert("Sorry !! you have been logged out. Please login again");
+                                window.localStorage.clear();
+                                window.location.href = '/Account/Logout';
+                            }
+                    },
+                    error: function () {
+                    }
+                });
+                }
+            });
+        }
+
+        var count = 60;
+        function timer2() {
+            count = count - 1;
+            if (count == -1) {
+                //this condition may never meet, but keep it for accedential event
+                confirmThere = false;
+                count = 60;
+                $('#popupWindow').data('kendoWindow').close();
+                clearInterval(timer_PopUpTimer);
+                timer_PopUpTimer = undefined;
+                return;
+            }
+
+
+            var reminingMins = GetRemainingTimeOut();
+
+            if (reminingMins > 1) {
+                confirmThere = false;
+                count = 60;
+                $('#popupWindow').data('kendoWindow').close();
+                clearInterval(timer_PopUpTimer);
+                timer_PopUpTimer = undefined;
+                return;
+            }
+
+            $("#timerContent").html(count);
+
+            if (count == 0) {
+                var reminingMins = GetRemainingTimeOut();
+                if (reminingMins > 1) {
+                    confirmThere = false;
+                    count = 60;
+                    $('#popupWindow').data('kendoWindow').close();
+                    clearInterval(timer_PopUpTimer);
+                    timer_PopUpTimer = undefined;
+                    return;
+                }
+                else {
+                    window.localStorage.clear();
+                    window.location.href = '/Account/Logout';
+                }
+
+            }
+        }
+
+</script>
+

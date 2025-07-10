@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>features.member.searchMember</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">1</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2024-10-28 05:25:41 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:7]">[1:7] search a member by Member ID </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/member/searchMember.feature</span><span class="feature-description">search member page</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:7]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:7]</span><span class="scenario-name">search a member by Member ID </span>
+</div>
+<div class="scenario-time passed">ms: 9353</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:7]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:7]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* url 'https://ccerrts-dev.callthecar.com'</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="preformatted" data-parent="1">17:25:32.352 karate.env system property was:</div>
+<div class="step-row" data-parent="[1:7]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* header Cookie = 'ASP.NET_SessionId=do1mfi0ql5hhsa3ht1sad2w3; .AspNet.ApplicationCookie=-7AqLoNgAiNm3AHi36YotWUeENUFiKnCcZrvxatE0Omi2BTckZphuf4t89iSGAVJV4nKFQcI3UsVFmbe2T3Xvq3x-jta0aa4d11op1sC-RZc3u5DeIwcG7RjRA2NBOYbAfxx7Gjh0hD02tmM2iyap-N1Kd4-KhT7awkHP-Z179V7UIYG-cwJjAlI7X2OjLnHppMuIkVa85cu9NO82Tq_sgV1kFGs-WytZunm8WHPxUrew2ltb0W4YNhSBQkbf_tXmHXyZORLXxJGdGjZilcGFVccPt5nX32s_93JoHwk8vQXg3ubb3bQ13RhT3midyzRyDItJ8lkr3_sPMLHypvVZaHQj8r6gwfrzmQVXNyXSSguTn2-4cSkCIhGF_4AvgGwSb3xjQ8IjToFc9YcL5QIwio8BJAUE5BgamCNCTHbvd-yUNAhHK26clV-g9Uf9lybpVOLsrV-Hx8N23l3DhKFLg5SuBMLNRET5VhcRBWfLS_-LnP35Wwy8NH27F9UAsdcLVddY9mOJDnNrXvSb7BQnFE2WoNVMqc4xgpWUzUTQIdc27RlgOmx0knnOdAVMwB1baKY-cq0FbA0NqepSt9r2g; UserDetailCookie=UserDetail=aGtvc2h0aSxRd2VydHlAMTIzLFRydWU=; __RequestVerificationToken=JJfiaYQaWrJR5bOPxMpSzlDhPO2Y2cdmarx1qQxb5DSCScTWYc5m745LO2NUM132gEPYIq7cHTihQBFx3gjlYielvuD3vuRqbHhds3zFiLE1'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">Given path '/Member/Member/MemberSearchPanel'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">And request</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="preformatted" data-parent="4">{ 
+   "page": "1", 
+   "pageSize": "20", 
+   "MemberID": "ztestmember1021" 
+}</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">When method POST</div>
+</div>
+<div class="time-cell passed">9343</div>
+</div>
+<div class="preformatted" data-parent="5">17:25:32.996 request:
+1 &gt; POST https://ccerrts-dev.callthecar.com/Member/Member/MemberSearchPanel
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 57
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Cookie: ASP.NET_SessionId=do1mfi0ql5hhsa3ht1sad2w3; .AspNet.ApplicationCookie=-7AqLoNgAiNm3AHi36YotWUeENUFiKnCcZrvxatE0Omi2BTckZphuf4t89iSGAVJV4nKFQcI3UsVFmbe2T3Xvq3x-jta0aa4d11op1sC-RZc3u5DeIwcG7RjRA2NBOYbAfxx7Gjh0hD02tmM2iyap-N1Kd4-KhT7awkHP-Z179V7UIYG-cwJjAlI7X2OjLnHppMuIkVa85cu9NO82Tq_sgV1kFGs-WytZunm8WHPxUrew2ltb0W4YNhSBQkbf_tXmHXyZORLXxJGdGjZilcGFVccPt5nX32s_93JoHwk8vQXg3ubb3bQ13RhT3midyzRyDItJ8lkr3_sPMLHypvVZaHQj8r6gwfrzmQVXNyXSSguTn2-4cSkCIhGF_4AvgGwSb3xjQ8IjToFc9YcL5QIwio8BJAUE5BgamCNCTHbvd-yUNAhHK26clV-g9Uf9lybpVOLsrV-Hx8N23l3DhKFLg5SuBMLNRET5VhcRBWfLS_-LnP35Wwy8NH27F9UAsdcLVddY9mOJDnNrXvSb7BQnFE2WoNVMqc4xgpWUzUTQIdc27RlgOmx0knnOdAVMwB1baKY-cq0FbA0NqepSt9r2g; UserDetailCookie=UserDetail=aGtvc2h0aSxRd2VydHlAMTIzLFRydWU=; __RequestVerificationToken=JJfiaYQaWrJR5bOPxMpSzlDhPO2Y2cdmarx1qQxb5DSCScTWYc5m745LO2NUM132gEPYIq7cHTihQBFx3gjlYielvuD3vuRqbHhds3zFiLE1
+1 &gt; Host: ccerrts-dev.callthecar.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+{"page":"1","pageSize":"20","MemberID":"ztestmember1021"}
+
+17:25:41.754 response time in milliseconds: 8754.13
+1 &lt; 200
+1 &lt; Access-Control-Expose-Headers: Request-Context
+1 &lt; Cache-Control: private, s-maxage=0
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Mon, 28 Oct 2024 11:55:41 GMT
+1 &lt; Expires: -1
+1 &lt; Pragma: no-cache
+1 &lt; Request-Context: appId=cid-v1:171f42e4-f5e8-41ef-a93a-a62d701c7013
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; Set-Cookie: .AspNet.ApplicationCookie=w2Q_8PLY83e4e7rorrlyaWtEucFFL6A_onh59-eK8ENbQY45A44a9reWjrnJdQ-mcMlfiCzXp6qVeLe8m8AuChQhUGQ_qfwrupmnU5H4Ts2mqHAvLhsEgpO6HOKGNWJ4wxN_8ZktSRs0Kd227zhIwBJKuaxZQkVyESUYdkFZIsiA1kTPL1Yr_xNLD3F4qASaT7ZK1bQ06B7w3WB84e0uveO-Tz9174qvzhBGOwQdpRuh6D8dET0OPl-07j1Uqr8RX8WU6ziRfcslkZAxIAZDjGJw0XeMML8obmCwNYC-BRTsw2cR1LHfjhp_hB9Efc7ozWTOepPmCL214yZRW6DFlQ89Y4KA2eEno-vsi3EVBwgGpsCnz3EJxN8eivAp-cyT9FTb0Kn3VdaWhaG79c9X5pqo9I9P74hPY_HKqIGI8W1PvGM1KPPFxwaqmLVeUho3mHhrO3BrvWZ82vOqYGsMkgFlIbsJ0r70WiqTk0UMWd62xn_JcIK4fBvb_pIeMz2lqRQwdyaJVm_vPb5SdsdQCuhXVcM1sb6eyMuclwoyLPPdcoQnkgtGJ81UNuOXcT_wEXCDk4ZwU2Q5q3ZOGVrTQw; path=/; secure; HttpOnly
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-AspNet-Version: 4.0.30319
+1 &lt; X-AspNetMvc-Version: 5.2
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Powered-By: ASP.NET
+{"Data":[{"MemberFirstName":null,"MemberLastName":null,"MemberName":"Member, Demo Test","MemberAddress":"763 Arcadia Ave , 5, Arcadia, CA- 91007","MemberFWA":false,"SearchDOB":null,"BenefitStartDate":null,"BenefitEndDate":null,"LastImportDate":null,"LastImportFileName":null,"BenefitName":null,"BrokerId":null,"ExcludedSubContractorId":0,"ExcludedSubContractorName":null,"SubContractorExclusionDate":"\/Date(-62135568000000)\/","SubContractorExcludedBy":null,"SubContractorName":null,"SubContractorReason":null,"Reason":null,"SubContractorId":0,"MemberTagid":null,"MemberTagids":0,"MemberTagName":null,"MailingAddressLine1":null,"MailingAddressLine2":null,"MailingApartment":null,"MailingCity":null,"MailingStateId":null,"Zipcode":null,"MemberNoteId":0,"MemberNoteCategoryId":0,"MemberNoteCategory":null,"MemberNoteText":null,"MemberNoteCreator":null,"MemberNoteCreationDate":"\/Date(-62135568000000)\/","Member":{"MemberMOT":null,"Id":229498,"MemberIdSearch":null,"MemberId":"ztestmember1021","InsuranceId":null,"SalutationId":0,"FirstName":null,"MiddleName":null,"LastName":null,"Name":",","DOB":null,"Age":null,"Gender":null,"MailingAddressId":0,"MailingAddress":null,"PhysicalAddressId":null,"PhysicalAddress":null,"IsPhysicalAddressSame":false,"DateOfBirth":"10/12/1959","PrimaryContactNo":"(626) 263-2074","PrimaryContactType":null,"SecondaryContactNo":null,"SecondaryContactType":null,"Email":null,"ClientId":0,"BenefitId":0,"InsurancePlanId":0,"AccountStatus":null,"Heightfeet":null,"HeightInches":null,"Height":"","Weight":null,"PreferredLevelOfServiceId":null,"PreferredSubContractorId":null,"CreatedBy":null,"CreatedDate":"\/Date(-62135568000000)\/","ModifiedBy":null,"ModifiedDate":null,"IsActive":null,"IsVip":null,"Status":"Active","ClientName":null,"Client":null,"IsAutomatedCallTextOptIn":null,"IsAutomatedEmailOptIn":null,"LOBName":null,"GroupName":null,"Pronoun":null,"PrefferedGender":null,"PlanCode":null,"HasParentalConsent":false},"Client":{"ClientId":0,"CompanyName":"zTest Health Plan","OfficeAddressId":0,"Phone":null,"Fax":null,"Email":null,"ContactPersonName":null,"ContactPersonEmail":null,"ContactPersonPhone":null,"ContactPersonMobile":null,"ContactPersonFax":null,"Logo":null,"IsActivateCountyVerification":false,"MaxOutOfCountyTravelDistance":null,"IsActiveMassTransit":false,"HealthPlanIdentifier":null,"IsAuthRequiredField":false,"IsAdvanceAuthFeature":false,"IsAuthMaskedRequiredField":false,"AuthMaskField":null,"MaxWalkingDistance":null,"MaxTravelTime":null,"CreatedBy":null,"CreatedDate":"\/Date(-62135568000000)\/","ModifiedBy":null,"ModifiedDate":"\/Date(-62135568000000)\/","IsActive":0,"IsTripExportAccess":false,"Address":null,"IsPCSEnabled":false,"IsMemberEligibilityImport":false,"CallCenterNumber":null,"IsAppLock":false,"AppLogo":null,"TaskBarpicker":null,"Headerbuttonpicker":null},"BenefitGroup":null,"Preference":null,"Address":null,"ListAddress":null,"State":null,"Status":0,"ModifiedBy":null,"LevelOfService":null,"username":null,"StateList":[{"Disabled":false,"Group":null,"Selected":false,"Text":"Alabama-AL","Value":"1"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Alaska-AK","Value":"2"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Arizona-AZ","Value":"3"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Arkansas-AR","Value":"4"},{"Disabled":false,"Group":null,"Selected":false,"Text":"California-CA","Value":"5"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Colorado-CO","Value":"6"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Connecticut-CT","Value":"7"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Delaware-DE","Value":"8"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Florida-FL","Value":"9"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Georgia-GA","Value":"10"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Hawaii-HI","Value":"11"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Idaho-ID","Value":"12"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Illinois-IL","Value":"13"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Indiana-IN","Value":"14"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Iowa-IA","Value":"15"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Kansas-KS","Value":"16"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Kentucky-KY","Value":"17"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Louisiana-LA","Value":"18"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Maine-ME","Value":"19"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Maryland-MD","Value":"20"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Massachusetts-MA","Value":"21"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Michigan-MI","Value":"22"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Minnesota-MN","Value":"23"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Mississippi-MS","Value":"24"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Missouri-MO","Value":"25"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Montana-MT","Value":"26"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Nebraska-NE","Value":"27"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Nevada-NV","Value":"28"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New Hampshire-NH","Value":"29"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New Jersey-NJ","Value":"30"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New Mexico-NM","Value":"31"},{"Disabled":false,"Group":null,"Selected":false,"Text":"New York-NY","Value":"32"},{"Disabled":false,"Group":null,"Selected":false,"Text":"North Carolina-NC","Value":"33"},{"Disabled":false,"Group":null,"Selected":false,"Text":"North Dakota-ND","Value":"34"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Ohio-OH","Value":"35"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Oklahoma-OK","Value":"36"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Oregon-OR","Value":"37"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Pennsylvania-PA","Value":"38"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Rhode Island-RI","Value":"39"},{"Disabled":false,"Group":null,"Selected":false,"Text":"South Carolina-SC","Value":"40"},{"Disabled":false,"Group":null,"Selected":false,"Text":"South Dakota-SD","Value":"41"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Tennessee-TN","Value":"42"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Texas-TX","Value":"43"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Utah-UT","Value":"44"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Vermont-VT","Value":"45"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Virginia-VA","Value":"46"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Washington-WA","Value":"47"},{"Disabled":false,"Group":null,"Selected":false,"Text":"West Virginia-WV","Value":"48"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Wisconsin-WI","Value":"49"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Wyoming-WY","Value":"50"},{"Disabled":false,"Group":null,"Selected":false,"Text":"District of Columbia-DC","Value":"51"},{"Disabled":false,"Group":null,"Selected":false,"Text":"Uttar Pradesh-UP","Value":"52"}],"chkCopyMailing":false,"EncryprtMemberId":null,"IsAccessToFleetModule":null,"IsAccessToEligibility":false,"InRequestedUser":null,"InMemberID":null,"InLastName":null,"InBirthDate":null,"InDateOfService":null}],"Total":1,"AggregateResults":null,"Errors":null}</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>
