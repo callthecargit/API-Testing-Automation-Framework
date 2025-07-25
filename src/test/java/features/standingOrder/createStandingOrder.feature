@@ -4,43 +4,43 @@ Background:
 * url 'https://ccerrts-dev.callthecar.com'
 * header Cookie = 'ASP.NET_SessionId=eizjxc5td2mp5gd2ckozij3g; __RequestVerificationToken=4R7i5gzYELrjBV8JqjE7w4WtLnSywqTcgYG-LzRht-FXIqdKTl51H2Ys_bUJrEbWws-lM4bsksXU1UVDx54MCsFxFH25Zc00axRk2S8haoY1; CCERRTS_INT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImFydW4uciIsImlzQWN0aXZlIjoiMSIsIm5hbWVpZCI6IjAxMzRhNzNjLTdlMTMtNGI5MS1iMDJmLWZhNTAwY2ZlMjkxOSIsImVtYWlsIjoiYXJ1bi5yQGNhbGx0aGVjYXIuY29tIiwidXNlclR5cGUiOiIxIiwiY2xpZW50SWRzIjoiMTIsNiwxMywxLDExLDE0LDUsOCwzLDE2LDEwLDQsNyw5IiwiZGVzaWduYXRpb25JZCI6IjMiLCJkZXNpZ25hdGlvbk5hbWUiOiJEaXJlY3RvciBvZiBPcGVyYXRpb25zIiwibmJmIjoxNzUzMjczNjEzLCJleHAiOjE3NTMzMDk2MTMsImlhdCI6MTc1MzI3MzYxM30.dVh-pv6faYd_9Xe_VvestJjQ_4yvhrAzY5-R1Mv2bZI; UserDetailCookie=UserDetail=YXJ1bi5yLFRydWU=&Expires=7/24/2025 5:26:53 AM; .AspNet.ApplicationCookie=V2P6a4QHYVBm2QX4Xq9Vvq7ahpZidHaJAkMP0d71jn1TLUz8cltlF6mKVCHVi9yPbmkqwUgbh9LoyC--Nb7jmtcgiPCVFZaI_8YXGMEchD2-u63hBqS6e7-73WGatM6EPUW0_Z_BQ6NG4cUuRYswrCphJaXNA4muQoTZy895Je5ZvsmZQCGCwTndzM41j0Leo4tNRODnLq6vjnBgWFrSnvQYHyoVgGgj9q6BssoYn1hhz86G_ZD43KueEiVXU8PpkPP-q1Qv6E2wqP0xIlHv42r90J81boguODsurDkZ8IAlRa2Z00MWELzY_OH2WkZByEZGcF6nv7Kxf-wEh96TDQMOMcPWzMN6hE7P5ADEYtxAtKseCpc9gCcpEwGrbD_llagA9GdTwNYPhzkioh8-mBGwdf0UNLl3Yd9UlrJ6frh553V-M0aSMSX2p8HpIkydlcLVDITpbAQt8bK2F1C7UoWqeZY78EliFnrXoMwvVYW7GFcF9Rcu2ep_P1xt5KmTHC2OtyVdEcb6WjPsu1Ooh4qAgajRN5mPgum-0og1mHU'
 
-# Scenario: Get create standing order create page
-# Given path '/Reservation/StandingOrder/Create'
-# When method GET
-# Then status 200
-# Then print response
+Scenario: Get create standing order create page
+Given path '/Reservation/StandingOrder/Create'
+When method GET
+Then status 200
+Then print response
 
-# Scenario: Get broker list by user
-# Given path '/Common/GetBrokerListByUser'
-# When method GET
-# Then status 200
-# Then print response
+Scenario: Get broker list by user
+Given path '/Common/GetBrokerListByUser'
+When method GET
+Then status 200
+Then print response
 
-# Scenario: Read Note
-# Given path '/Reservation/StandingOrder/ReadNote'
-# And request 
-#   """
-#    { 
-#       "page": "1", 
-#       "pageSize": "10", 
-#       "tripId": "0"
-#    }
-#       """
-# When method POST
-# Then status 200
-# Then print response
+Scenario: Read Note
+Given path '/Reservation/StandingOrder/ReadNote'
+And request 
+  """
+   { 
+      "page": "1", 
+      "pageSize": "10", 
+      "tripId": "0"
+   }
+      """
+When method POST
+Then status 200
+Then print response
 
-# Scenario: Find active standing order
-# Given path '/Reservation/StandingOrder/ActiveStandingOrders'
-# And request 
-#   """
-#    { 
-#       "memberId": "84972",
-#    }
-#       """
-# When method POST
-# Then status 200
-# Then print response
+Scenario: Find active standing order
+Given path '/Reservation/StandingOrder/ActiveStandingOrders'
+And request 
+  """
+   { 
+      "memberId": "84972",
+   }
+      """
+When method POST
+Then status 200
+Then print response
 
 Scenario: Validate facility
   Given path '/Common/ValidateFacility'
