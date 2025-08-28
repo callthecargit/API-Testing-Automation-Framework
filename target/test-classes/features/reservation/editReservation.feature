@@ -140,3 +140,17 @@ Scenario: Read cache OST
 #   When method POST
 #   Then status 200
 #   Then print response
+
+Scenario: Read active blocked addresses
+  Given path '/Reservation/Reservation/ActiveBlockedAddressRead'
+  When request 
+  """
+  {
+     "page": "1"
+      "pageSize": "10",
+      "clientId": "5"
+  }
+  """
+  When method POST
+  Then status 200
+  Then print response
